@@ -8,7 +8,7 @@ REV_ID=${REV_ID:0:7}
 
 HOST_CPU_NUM=$((`grep '^processor' /proc/cpuinfo | wc -l` * 2))
 
-#APT_GET="sudo apt-get -y -q"
+APT_GET="sudo apt-get -y -q"
 RM="rm -rf"
 TAR="tar -v"
 MKDIR="mkdir -p -v"
