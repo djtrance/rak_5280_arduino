@@ -224,6 +224,7 @@ usage()
     echo "Usage: $0 [-v] [clean]"
     echo "Build NuWicam Firmware".
 }
+all_clean
 
 all_make
-#all_clean
+
