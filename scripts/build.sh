@@ -26,7 +26,7 @@ SOURCES_PATH=$DEV_ROOT/sources/
 IMAGES_PATH=$DEV_ROOT/sources/image/
 
 export PATH=$DEV_ROOT/compiler/arm_linux_4.8/bin:$PATH
-sensor_set="gc0308 tvp5150 gm7150"
+sensor_set="gc0308"
 
 toolchain_make()
 {
