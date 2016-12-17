@@ -28,6 +28,7 @@ uname -v = #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014
 /bin/universe          = unknown
 
 PATH: /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin
+PATH: /home/swt/go/go//bin
 PATH: /opt/hisi-linux-nptl/arm-hisiv100-linux/target/bin
 PATH: /usr/local/sbin
 PATH: /usr/local/bin
@@ -37,9 +38,9 @@ PATH: /sbin
 PATH: /bin
 PATH: /usr/games
 PATH: /usr/local/games
+PATH: /usr/local/arm_linux_4.2/bin/
 PATH: /usr/local/gcc-4.6.4/bin/
 PATH: /usr/local/gcc-4.6.4/arm-arm1176jzfssf-linux-gnueabi/bin/
-PATH: /usr/local/arm_linux_4.2/bin/
 
 
 ## ----------- ##
@@ -51,41 +52,44 @@ configure:2312: result: /usr/bin/install -c
 configure:2323: checking whether build environment is sane
 configure:2373: result: yes
 configure:2422: checking for arm-linux-strip
-configure:2438: found /usr/local/arm_linux_4.2/bin//arm-linux-strip
+configure:2438: found /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-strip
 configure:2449: result: arm-linux-strip
 configure:2514: checking for a thread-safe mkdir -p
 configure:2553: result: /bin/mkdir -p
 configure:2566: checking for gawk
-configure:2596: result: no
-configure:2566: checking for mawk
-configure:2582: found /usr/bin/mawk
-configure:2593: result: mawk
+configure:2582: found /usr/bin/gawk
+configure:2593: result: gawk
 configure:2604: checking whether make sets $(MAKE)
 configure:2626: result: yes
 configure:2714: checking for arm-linux-gcc
-configure:2730: found /usr/local/arm_linux_4.2/bin//arm-linux-gcc
+configure:2730: found /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-gcc
 configure:2741: result: arm-linux-gcc
 configure:3010: checking for C compiler version
 configure:3019: arm-linux-gcc --version >&5
-arm-linux-gcc (GCC) 4.2.1
-Copyright (C) 2007 Free Software Foundation, Inc.
+arm-linux-gcc (GCC) 4.8.4
+Copyright (C) 2013 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 configure:3030: $? = 0
 configure:3019: arm-linux-gcc -v >&5
 Using built-in specs.
-Target: arm-none-linux-gnueabi
-Configured with: ../../gcc-4.2.1/configure --prefix=/usr/local/arm_linux_4.2 --target=arm-none-linux-gnueabi --enable-languages=c,c++ --with-gnu-ld --with-gnu-as --disable-nls --with-float=soft --without-newlib --disable-libmudflap --disable-libssp --disable-libgomp
+COLLECT_GCC=arm-linux-gcc
+COLLECT_LTO_WRAPPER=/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../libexec/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/lto-wrapper
+Target: arm-nuvoton-linux-uclibceabi
+Configured with: ../configure --prefix=/usr/local/arm_linux_4.8 --target=arm-nuvoton-linux-uclibceabi --enable-static --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --enable-target-optspace --disable-libsanitizer --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --with-float=soft --disable-decimal-float --with-abi=aapcs-linux --with-cpu=arm926ej-s --with-float=soft --with-mode=arm --enable-languages=c,c++ --enable-poison-system-directories --enable-shared --disable-libgomp --with-sysroot=/usr/local/arm_linux_4.8 --with-build-time-tools=/usr/local/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/bin --enable-shared
 Thread model: posix
-gcc version 4.2.1
+gcc version 4.8.4 (GCC) 
 configure:3030: $? = 0
 configure:3019: arm-linux-gcc -V >&5
-arm-linux-gcc: '-V' option must have argument
+arm-linux-gcc: error: unrecognized command line option '-V'
+arm-linux-gcc: fatal error: no input files
+compilation terminated.
 configure:3030: $? = 1
 configure:3019: arm-linux-gcc -qversion >&5
-arm-linux-gcc: unrecognized option '-qversion'
-arm-linux-gcc: no input files
+arm-linux-gcc: error: unrecognized command line option '-qversion'
+arm-linux-gcc: fatal error: no input files
+compilation terminated.
 configure:3030: $? = 1
 configure:3050: checking whether the C compiler works
 configure:3072: arm-linux-gcc    conftest.c  >&5
@@ -139,14 +143,14 @@ configure:4058: result: /bin/grep -E
 configure:4063: checking for fgrep
 configure:4125: result: /bin/grep -F
 configure:4160: checking for ld used by arm-linux-gcc
-configure:4227: result: /usr/local/arm_linux_4.2/arm-none-linux-gnueabi/bin/ld
-configure:4234: checking if the linker (/usr/local/arm_linux_4.2/arm-none-linux-gnueabi/bin/ld) is GNU ld
+configure:4227: result: /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/bin/ld
+configure:4234: checking if the linker (/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/bin/ld) is GNU ld
 configure:4249: result: yes
 configure:4261: checking for BSD- or MS-compatible name lister (nm)
-configure:4310: result: /usr/local/arm_linux_4.2/bin//arm-linux-nm -B
-configure:4440: checking the name lister (/usr/local/arm_linux_4.2/bin//arm-linux-nm -B) interface
+configure:4310: result: /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-nm -B
+configure:4440: checking the name lister (/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-nm -B) interface
 configure:4447: arm-linux-gcc -c -g -O2  conftest.c >&5
-configure:4450: /usr/local/arm_linux_4.2/bin//arm-linux-nm -B "conftest.o"
+configure:4450: /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-nm -B "conftest.o"
 configure:4453: output
 00000000 B some_variable
 configure:4460: result: BSD nm
@@ -162,10 +166,10 @@ configure:4677: checking how to convert x86_64-unknown-linux-gnu file names to a
 configure:4717: result: func_convert_file_noop
 configure:4724: checking how to convert x86_64-unknown-linux-gnu file names to toolchain format
 configure:4744: result: func_convert_file_noop
-configure:4751: checking for /usr/local/arm_linux_4.2/arm-none-linux-gnueabi/bin/ld option to reload object files
+configure:4751: checking for /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/bin/ld option to reload object files
 configure:4758: result: -r
 configure:4792: checking for arm-linux-objdump
-configure:4808: found /usr/local/arm_linux_4.2/bin//arm-linux-objdump
+configure:4808: found /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-objdump
 configure:4819: result: arm-linux-objdump
 configure:4891: checking how to recognize dependent libraries
 configure:5093: result: pass_all
@@ -176,7 +180,7 @@ configure:5208: result: no
 configure:5238: checking how to associate runtime and link libraries
 configure:5265: result: printf %s\n
 configure:5282: checking for arm-linux-ar
-configure:5298: found /usr/local/arm_linux_4.2/bin//arm-linux-ar
+configure:5298: found /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-ar
 configure:5309: result: arm-linux-ar
 configure:5390: checking for archiver @FILE support
 configure:5407: arm-linux-gcc -c -g -O2  conftest.c >&5
@@ -190,12 +194,12 @@ configure:5433: result: @
 configure:5451: checking for arm-linux-strip
 configure:5478: result: arm-linux-strip
 configure:5550: checking for arm-linux-ranlib
-configure:5566: found /usr/local/arm_linux_4.2/bin//arm-linux-ranlib
+configure:5566: found /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-ranlib
 configure:5577: result: arm-linux-ranlib
-configure:5719: checking command to parse /usr/local/arm_linux_4.2/bin//arm-linux-nm -B output from arm-linux-gcc object
+configure:5719: checking command to parse /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-nm -B output from arm-linux-gcc object
 configure:5839: arm-linux-gcc -c -g -O2  conftest.c >&5
 configure:5842: $? = 0
-configure:5846: /usr/local/arm_linux_4.2/bin//arm-linux-nm -B conftest.o \| sed -n -e 's/^.*[ ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[ ][ ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
+configure:5846: /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-nm -B conftest.o \| sed -n -e 's/^.*[ ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[ ][ ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p' | sed '/ __gnu_lto/d' \> conftest.nm
 configure:5849: $? = 0
 configure:5915: arm-linux-gcc -o conftest -g -O2   conftest.c conftstm.o >&5
 configure:5918: $? = 0
@@ -215,7 +219,10 @@ configure:6985: checking how to run the C preprocessor
 configure:7016: arm-linux-gcc -E  conftest.c
 configure:7016: $? = 0
 configure:7030: arm-linux-gcc -E  conftest.c
-conftest.c:11:28: error: ac_nonexistent.h: No such file or directory
+conftest.c:11:28: fatal error: ac_nonexistent.h: No such file or directory
+ #include <ac_nonexistent.h>
+                            ^
+compilation terminated.
 configure:7030: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -233,7 +240,10 @@ configure:7055: result: arm-linux-gcc -E
 configure:7075: arm-linux-gcc -E  conftest.c
 configure:7075: $? = 0
 configure:7089: arm-linux-gcc -E  conftest.c
-conftest.c:11:28: error: ac_nonexistent.h: No such file or directory
+conftest.c:11:28: fatal error: ac_nonexistent.h: No such file or directory
+ #include <ac_nonexistent.h>
+                            ^
+compilation terminated.
 configure:7089: $? = 1
 configure: failed program was:
 | /* confdefs.h */
@@ -295,7 +305,7 @@ configure:7455: checking for objdir
 configure:7470: result: .libs
 configure:7741: checking if arm-linux-gcc supports -fno-rtti -fno-exceptions
 configure:7759: arm-linux-gcc -c -g -O2  -fno-rtti -fno-exceptions conftest.c >&5
-cc1: warning: command line option "-fno-rtti" is valid for C++/ObjC++ but not for C
+cc1: warning: command line option '-fno-rtti' is valid for C++/ObjC++ but not for C [enabled by default]
 configure:7763: $? = 0
 configure:7776: result: no
 configure:8103: checking for arm-linux-gcc option to produce PIC
@@ -312,7 +322,7 @@ configure:8250: $? = 0
 configure:8272: result: yes
 configure:8280: checking if arm-linux-gcc supports -c -o file.o
 configure:8327: result: yes
-configure:8360: checking whether the arm-linux-gcc linker (/usr/local/arm_linux_4.2/arm-none-linux-gnueabi/bin/ld) supports shared libraries
+configure:8360: checking whether the arm-linux-gcc linker (/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/bin/ld) supports shared libraries
 configure:9517: result: yes
 configure:9554: checking whether -lc should be explicitly linked in
 configure:9562: arm-linux-gcc -c -g -O2  conftest.c >&5
@@ -407,7 +417,7 @@ ac_cv_path_SED=/bin/sed
 ac_cv_path_install='/usr/bin/install -c'
 ac_cv_path_mkdir=/bin/mkdir
 ac_cv_prog_AR=arm-linux-ar
-ac_cv_prog_AWK=mawk
+ac_cv_prog_AWK=gawk
 ac_cv_prog_CC=arm-linux-gcc
 ac_cv_prog_CPP='arm-linux-gcc -E'
 ac_cv_prog_OBJDUMP=arm-linux-objdump
@@ -426,8 +436,8 @@ lt_cv_file_magic_test_file=
 lt_cv_ld_reload_flag=-r
 lt_cv_nm_interface='BSD nm'
 lt_cv_objdir=.libs
-lt_cv_path_LD=/usr/local/arm_linux_4.2/arm-none-linux-gnueabi/bin/ld
-lt_cv_path_NM='/usr/local/arm_linux_4.2/bin//arm-linux-nm -B'
+lt_cv_path_LD=/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/bin/ld
+lt_cv_path_NM='/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-nm -B'
 lt_cv_path_mainfest_tool=no
 lt_cv_prog_compiler_c_o=yes
 lt_cv_prog_compiler_pic='-fPIC -DPIC'
@@ -458,7 +468,7 @@ AR='arm-linux-ar'
 AUTOCONF='${SHELL} /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/applications/ser2net-2.10.0/missing --run autoconf'
 AUTOHEADER='${SHELL} /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/applications/ser2net-2.10.0/missing --run autoheader'
 AUTOMAKE='${SHELL} /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/applications/ser2net-2.10.0/missing --run automake-1.11'
-AWK='mawk'
+AWK='gawk'
 CC='arm-linux-gcc'
 CCDEPMODE='depmode=gcc3'
 CFLAGS='-g -O2'
@@ -481,7 +491,7 @@ INSTALL_DATA='${INSTALL} -m 644'
 INSTALL_PROGRAM='${INSTALL}'
 INSTALL_SCRIPT='${INSTALL}'
 INSTALL_STRIP_PROGRAM='$(install_sh) -c -s'
-LD='/usr/local/arm_linux_4.2/arm-none-linux-gnueabi/bin/ld'
+LD='/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/bin/ld'
 LDFLAGS=''
 LIBOBJS=''
 LIBS='-lnsl '
@@ -492,7 +502,7 @@ LTLIBOBJS=''
 MAKEINFO='${SHELL} /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/applications/ser2net-2.10.0/missing --run makeinfo'
 MANIFEST_TOOL=':'
 MKDIR_P='/bin/mkdir -p'
-NM='/usr/local/arm_linux_4.2/bin//arm-linux-nm -B'
+NM='/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/arm-linux-nm -B'
 NMEDIT=''
 OBJDUMP='arm-linux-objdump'
 OBJEXT='o'

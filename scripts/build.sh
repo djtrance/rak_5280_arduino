@@ -26,7 +26,7 @@ SOURCES_PATH=$DEV_ROOT/sources/
 IMAGES_PATH=$DEV_ROOT/sources/image/
 
 export PATH=$DEV_ROOT/compiler/arm_linux_4.8/bin:$PATH
-sensor_set="gc0308"
+sensor_set="gc0308 tvp5150 gm7150"
 
 toolchain_make()
 {
@@ -146,7 +146,9 @@ kernel_make()
 	if [ "$SOURCES_PATH/kernel" ]; then
 		cd $SOURCES_PATH/kernel
 		for sensor in $sensor_set; do
-			make ARCH=arm "nuwicam_"$sensor"_defconfig"
+			cp ./arch/arm/configs/nuwicam_gc0308_defconfig .config
+#			make ARCH=arm "nuwicam_"$sensor"_defconfig"
+			make ARCH=arm
 			if ./build spi; then
 				ls -al ../image/conprog.gz
 				mv ../image/conprog.gz ../image/conprog.gz.$sensor
@@ -224,7 +226,6 @@ usage()
     echo "Usage: $0 [-v] [clean]"
     echo "Build NuWicam Firmware".
 }
+
 all_clean
-
 all_make
-

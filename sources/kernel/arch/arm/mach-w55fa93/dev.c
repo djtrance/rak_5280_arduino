@@ -665,7 +665,7 @@ static struct platform_device *w55fa93_public_dev[] __initdata = {
 //	&w55fa93_device_audio_ac97,
 //Wayne	&w55fa93_device_audio_i2s,
 	&w55fa93_device_audio_adc,
-//Wayne	&w55fa93_device_audio_spu,
+	&w55fa93_device_audio_spu,
 //Wayne	&w55fa93_device_i2c,
 	&w55fa93_device_gpioi2c,
 #ifdef CONFIG_W55FA93_PWM0_PD0	
