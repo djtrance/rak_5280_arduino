@@ -21,4 +21,4 @@ __attribute__((section(".modinfo"))) =
 
 MODULE_ALIAS("sdio:c*v024CdF179*");
 
-MODULE_INFO(srcversion, "E0CF04689D1166691CA929B");
+MODULE_INFO(srcversion, "31F207FA752274A3F28EDCB");

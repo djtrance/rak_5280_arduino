@@ -42,6 +42,7 @@ toolchain_make()
         $APT_GET install --force-yes ia32-libs ia32-libs-multiarch liblzo2-2:i386 liblzma5:i386
 	$APT_GET install --force-yes lib32ncurses5 lib32z1 lib32bz2
 	$APT_GET install --force-yes lib32stdc++6
+	$APT_GET install --force-yes libv4l-dev
     fi
 
     if [[ -L "$TOOLCHAIN_ABS_PATH" && -d "$TOOLCHAIN_ABS_PATH" ]]; then
@@ -56,6 +57,11 @@ toolchain_make()
 	    fi
 	    echo "To make symbol link"
   	    sudo $LN $DEV_ROOT/compiler/arm_linux_4.8/  $TOOLCHAIN_ABS_PATH
+	    actual=$(pwd)
+	    cd /usr/include/linux
+	    sudo ln -s ../libv4l1-videodev.h videodev.h
+	    cd $actual
+
     fi
 
     arm-linux-gcc -v

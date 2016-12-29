@@ -1,4 +1,4 @@
-cmd_drivers/leds/led-triggers.o := arm-linux-gcc -Wp,-MD,drivers/leds/.led-triggers.o.d  -nostdinc -isystem /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include -I/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-w55fa93/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(led_triggers)"  -D"KBUILD_MODNAME=KBUILD_STR(led_triggers)"  -c -o drivers/leds/led-triggers.o drivers/leds/led-triggers.c
+cmd_drivers/leds/led-triggers.o := arm-linux-gcc -Wp,-MD,drivers/leds/.led-triggers.o.d  -nostdinc -isystem /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include -I/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-w55fa93/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(led_triggers)"  -D"KBUILD_MODNAME=KBUILD_STR(led_triggers)"  -c -o drivers/leds/led-triggers.o drivers/leds/led-triggers.c
 
 deps_drivers/leds/led-triggers.o := \
   drivers/leds/led-triggers.c \
@@ -37,22 +37,22 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/types.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/bitsperlong.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/posix_types.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/processor.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/posix_types.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/processor.h \
     $(wildcard include/config/mmu.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/ptrace.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/hwcap.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/cache.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/hwcap.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/system.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/system.h \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
@@ -61,21 +61,21 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/cpu/sa110.h) \
     $(wildcard include/config/cpu/32v6k.h) \
   include/linux/linkage.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/linkage.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/linkage.h \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
     $(wildcard include/config/irqsoff/tracer.h) \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/irqflags.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/outercache.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/irqflags.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/asm-generic/cmpxchg-local.h \
   include/asm-generic/cmpxchg.h \
   include/linux/stat.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/stat.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
@@ -88,12 +88,12 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/dynamic/debug.h) \
     $(wildcard include/config/ring/buffer.h) \
     $(wildcard include/config/numa.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdarg.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdarg.h \
   include/linux/bitops.h \
     $(wildcard include/config/generic/find/first/bit.h) \
     $(wildcard include/config/generic/find/last/bit.h) \
     $(wildcard include/config/generic/find/next/bit.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/bitops.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bitops.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -105,12 +105,12 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/arch/has/ilog2/u32.h) \
     $(wildcard include/config/arch/has/ilog2/u64.h) \
   include/linux/dynamic_debug.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/byteorder.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/swab.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/bug.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
@@ -126,12 +126,12 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/thread_info.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/fpstate.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/domain.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
@@ -146,12 +146,12 @@ deps_drivers/leds/led-triggers.o := \
   include/linux/spinlock_up.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_up.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/atomic.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/atomic.h \
     $(wildcard include/config/generic/atomic64.h) \
   include/asm-generic/atomic64.h \
   include/asm-generic/atomic-long.h \
   include/linux/math64.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/div64.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/div64.h \
   include/linux/kmod.h \
   include/linux/gfp.h \
     $(wildcard include/config/kmemcheck.h) \
@@ -180,7 +180,7 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/holes/in/zone.h) \
     $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/wait.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/current.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/current.h \
   include/linux/threads.h \
     $(wildcard include/config/nr/cpus.h) \
     $(wildcard include/config/base/small.h) \
@@ -192,12 +192,12 @@ deps_drivers/leds/led-triggers.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/string.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/page.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -205,7 +205,7 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/cpu/copy/fa.h) \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/glue.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -218,14 +218,14 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/memory.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/dram/size.h) \
     $(wildcard include/config/dram/base.h) \
   include/linux/const.h \
   arch/arm/mach-w55fa93/include/mach/memory.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/sizes.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
   include/asm-generic/getorder.h \
@@ -234,7 +234,7 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/memory/hotremove.h) \
   include/linux/notifier.h \
   include/linux/errno.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/errno.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/mutex.h \
@@ -259,11 +259,11 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/pfn.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/percpu.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/topology.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
@@ -277,9 +277,9 @@ deps_drivers/leds/led-triggers.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/param.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/timex.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/timex.h \
   arch/arm/mach-w55fa93/include/mach/timex.h \
     $(wildcard include/config/extclk/12m.h) \
     $(wildcard include/config/extclk/27m.h) \
@@ -288,8 +288,8 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/debug/objects/free.h) \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/elf.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/user.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/elf.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/user.h \
   include/linux/kobject.h \
   include/linux/sysfs.h \
   include/linux/kref.h \
@@ -306,7 +306,7 @@ deps_drivers/leds/led-triggers.o := \
   include/linux/completion.h \
   include/linux/rcutree.h \
     $(wildcard include/config/no/hz.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/module.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/trace/define_trace.h \
@@ -320,7 +320,7 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/pm/sleep.h) \
     $(wildcard include/config/pm/runtime.h) \
     $(wildcard include/config/pm/ops.h) \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include/asm/device.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
     $(wildcard include/config/pm.h) \

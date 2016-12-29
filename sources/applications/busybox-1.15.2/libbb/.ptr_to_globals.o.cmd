@@ -2,15 +2,15 @@ cmd_libbb/ptr_to_globals.o := arm-linux-gcc -Wp,-MD,libbb/.ptr_to_globals.o.d   
 
 deps_libbb/ptr_to_globals.o := \
   libbb/ptr_to_globals.c \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/usr/include/errno.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/usr/include/features.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/usr/include/bits/uClibc_config.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/usr/include/sys/cdefs.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/usr/include/bits/errno.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/linux/errno.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/errno.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno.h \
-  /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno-base.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/errno.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/features.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_config.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/cdefs.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/errno.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/linux/errno.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/errno.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno.h \
+  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno-base.h \
 
 libbb/ptr_to_globals.o: $(deps_libbb/ptr_to_globals.o)
 

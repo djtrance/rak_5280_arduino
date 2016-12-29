@@ -2,10 +2,10 @@ Output of:
 arm-linux-gcc -Wall -Wshadow -Wwrite-strings -Wundef -Wstrict-prototypes -Wunused -Wunused-parameter -Wunused-function -Wunused-value -Wmissing-prototypes -Wmissing-declarations -Wdeclaration-after-statement -Wold-style-definition -fno-builtin-strlen -finline-limit=0 -fomit-frame-pointer -ffunction-sections -fdata-sections -fno-guess-branch-probability -funsigned-char -static-libgcc -falign-functions=1 -falign-jumps=1 -falign-labels=1 -falign-loops=1 -Os -static -o busybox_unstripped -Wl,--sort-common -Wl,--sort-section,alignment -Wl,--gc-sections -Wl,--start-group applets/built-in.o archival/lib.a archival/libunarchive/lib.a console-tools/lib.a coreutils/lib.a coreutils/libcoreutils/lib.a debianutils/lib.a e2fsprogs/lib.a editors/lib.a findutils/lib.a init/lib.a libbb/lib.a libpwdgrp/lib.a loginutils/lib.a mailutils/lib.a miscutils/lib.a modutils/lib.a networking/lib.a networking/libiproute/lib.a networking/udhcp/lib.a printutils/lib.a procps/lib.a runit/lib.a selinux/lib.a shell/lib.a sysklogd/lib.a util-linux/lib.a util-linux/volume_id/lib.a archival/built-in.o archival/libunarchive/built-in.o console-tools/built-in.o coreutils/built-in.o coreutils/libcoreutils/built-in.o debianutils/built-in.o e2fsprogs/built-in.o editors/built-in.o findutils/built-in.o init/built-in.o libbb/built-in.o libpwdgrp/built-in.o loginutils/built-in.o mailutils/built-in.o miscutils/built-in.o modutils/built-in.o networking/built-in.o networking/libiproute/built-in.o networking/udhcp/built-in.o printutils/built-in.o procps/built-in.o runit/built-in.o selinux/built-in.o shell/built-in.o sysklogd/built-in.o util-linux/built-in.o util-linux/volume_id/built-in.o -Wl,--end-group -Wl,--start-group -lcrypt -Wl,--end-group -Wl,--warn-common -Wl,-Map,busybox_unstripped.map -Wl,--verbose
 ==========
 GNU ld (GNU Binutils) 2.24
-  Supported emulations:
+  Emulaciones admitidas:
    armelf_linux_eabi
    armelfb_linux_eabi
-using internal linker script:
+se usa el guión interno del enlazador:
 ==================================================
 /* Script for -z combreloc: combine and sort reloc sections */
 OUTPUT_FORMAT("elf32-littlearm", "elf32-bigarm",
@@ -249,25 +249,25 @@ SECTIONS
 
 
 ==================================================
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o succeeded
-/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o succeeded
-/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbeginT.o succeeded
-/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbeginT.o
-attempt to open applets/built-in.o succeeded
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crt1.o
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crti.o
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbeginT.o
+/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtbeginT.o
+tuvo éxito el intento de abrir applets/built-in.o
 applets/built-in.o
-attempt to open archival/lib.a succeeded
-attempt to open archival/libunarchive/lib.a succeeded
-attempt to open console-tools/lib.a succeeded
-attempt to open coreutils/lib.a succeeded
-attempt to open coreutils/libcoreutils/lib.a succeeded
-attempt to open debianutils/lib.a succeeded
-attempt to open e2fsprogs/lib.a succeeded
-attempt to open editors/lib.a succeeded
-attempt to open findutils/lib.a succeeded
-attempt to open init/lib.a succeeded
-attempt to open libbb/lib.a succeeded
+tuvo éxito el intento de abrir archival/lib.a
+tuvo éxito el intento de abrir archival/libunarchive/lib.a
+tuvo éxito el intento de abrir console-tools/lib.a
+tuvo éxito el intento de abrir coreutils/lib.a
+tuvo éxito el intento de abrir coreutils/libcoreutils/lib.a
+tuvo éxito el intento de abrir debianutils/lib.a
+tuvo éxito el intento de abrir e2fsprogs/lib.a
+tuvo éxito el intento de abrir editors/lib.a
+tuvo éxito el intento de abrir findutils/lib.a
+tuvo éxito el intento de abrir init/lib.a
+tuvo éxito el intento de abrir libbb/lib.a
 (libbb/lib.a)appletlib.o
 (libbb/lib.a)bb_basename.o
 (libbb/lib.a)concat_path_file.o
@@ -289,20 +289,20 @@ attempt to open libbb/lib.a succeeded
 (libbb/lib.a)read.o
 (libbb/lib.a)safe_poll.o
 (libbb/lib.a)safe_write.o
-attempt to open libpwdgrp/lib.a succeeded
-attempt to open loginutils/lib.a succeeded
+tuvo éxito el intento de abrir libpwdgrp/lib.a
+tuvo éxito el intento de abrir loginutils/lib.a
 (loginutils/lib.a)chpasswd.o
 (loginutils/lib.a)getty.o
 (loginutils/lib.a)login.o
 (loginutils/lib.a)passwd.o
-attempt to open mailutils/lib.a succeeded
-attempt to open miscutils/lib.a succeeded
-attempt to open modutils/lib.a succeeded
+tuvo éxito el intento de abrir mailutils/lib.a
+tuvo éxito el intento de abrir miscutils/lib.a
+tuvo éxito el intento de abrir modutils/lib.a
 (modutils/lib.a)insmod.o
 (modutils/lib.a)lsmod.o
 (modutils/lib.a)modutils.o
 (modutils/lib.a)rmmod.o
-attempt to open networking/lib.a succeeded
+tuvo éxito el intento de abrir networking/lib.a
 (networking/lib.a)ftpgetput.o
 (networking/lib.a)ifconfig.o
 (networking/lib.a)ifupdown.o
@@ -311,8 +311,8 @@ attempt to open networking/lib.a succeeded
 (networking/lib.a)route.o
 (networking/lib.a)telnetd.o
 (networking/lib.a)tftp.o
-attempt to open networking/libiproute/lib.a succeeded
-attempt to open networking/udhcp/lib.a succeeded
+tuvo éxito el intento de abrir networking/libiproute/lib.a
+tuvo éxito el intento de abrir networking/udhcp/lib.a
 (networking/udhcp/lib.a)dhcpc.o
 (networking/udhcp/lib.a)options.o
 (networking/udhcp/lib.a)packet.o
@@ -323,55 +323,55 @@ attempt to open networking/udhcp/lib.a succeeded
 (networking/udhcp/lib.a)clientpacket.o
 (networking/udhcp/lib.a)clientsocket.o
 (networking/udhcp/lib.a)common.o
-attempt to open printutils/lib.a succeeded
-attempt to open procps/lib.a succeeded
+tuvo éxito el intento de abrir printutils/lib.a
+tuvo éxito el intento de abrir procps/lib.a
 (procps/lib.a)kill.o
 (procps/lib.a)ps.o
 (procps/lib.a)top.o
-attempt to open runit/lib.a succeeded
-attempt to open selinux/lib.a succeeded
-attempt to open shell/lib.a succeeded
+tuvo éxito el intento de abrir runit/lib.a
+tuvo éxito el intento de abrir selinux/lib.a
+tuvo éxito el intento de abrir shell/lib.a
 (shell/lib.a)hush.o
 (shell/lib.a)match.o
-attempt to open sysklogd/lib.a succeeded
-attempt to open util-linux/lib.a succeeded
+tuvo éxito el intento de abrir sysklogd/lib.a
+tuvo éxito el intento de abrir util-linux/lib.a
 (util-linux/lib.a)dmesg.o
 (util-linux/lib.a)hwclock.o
 (util-linux/lib.a)mdev.o
 (util-linux/lib.a)mkfs_vfat.o
 (util-linux/lib.a)mount.o
 (util-linux/lib.a)umount.o
-attempt to open util-linux/volume_id/lib.a succeeded
+tuvo éxito el intento de abrir util-linux/volume_id/lib.a
 (util-linux/volume_id/lib.a)get_devname.o
 (util-linux/volume_id/lib.a)volume_id.o
 (util-linux/volume_id/lib.a)util.o
-attempt to open archival/built-in.o succeeded
-attempt to open archival/libunarchive/built-in.o succeeded
-attempt to open console-tools/built-in.o succeeded
-attempt to open coreutils/built-in.o succeeded
-attempt to open coreutils/libcoreutils/built-in.o succeeded
-attempt to open debianutils/built-in.o succeeded
-attempt to open e2fsprogs/built-in.o succeeded
-attempt to open editors/built-in.o succeeded
-attempt to open findutils/built-in.o succeeded
-attempt to open init/built-in.o succeeded
-attempt to open libbb/built-in.o succeeded
-attempt to open libpwdgrp/built-in.o succeeded
-attempt to open loginutils/built-in.o succeeded
-attempt to open mailutils/built-in.o succeeded
-attempt to open miscutils/built-in.o succeeded
-attempt to open modutils/built-in.o succeeded
-attempt to open networking/built-in.o succeeded
-attempt to open networking/libiproute/built-in.o succeeded
-attempt to open networking/udhcp/built-in.o succeeded
-attempt to open printutils/built-in.o succeeded
-attempt to open procps/built-in.o succeeded
-attempt to open runit/built-in.o succeeded
-attempt to open selinux/built-in.o succeeded
-attempt to open shell/built-in.o succeeded
-attempt to open sysklogd/built-in.o succeeded
-attempt to open util-linux/built-in.o succeeded
-attempt to open util-linux/volume_id/built-in.o succeeded
+tuvo éxito el intento de abrir archival/built-in.o
+tuvo éxito el intento de abrir archival/libunarchive/built-in.o
+tuvo éxito el intento de abrir console-tools/built-in.o
+tuvo éxito el intento de abrir coreutils/built-in.o
+tuvo éxito el intento de abrir coreutils/libcoreutils/built-in.o
+tuvo éxito el intento de abrir debianutils/built-in.o
+tuvo éxito el intento de abrir e2fsprogs/built-in.o
+tuvo éxito el intento de abrir editors/built-in.o
+tuvo éxito el intento de abrir findutils/built-in.o
+tuvo éxito el intento de abrir init/built-in.o
+tuvo éxito el intento de abrir libbb/built-in.o
+tuvo éxito el intento de abrir libpwdgrp/built-in.o
+tuvo éxito el intento de abrir loginutils/built-in.o
+tuvo éxito el intento de abrir mailutils/built-in.o
+tuvo éxito el intento de abrir miscutils/built-in.o
+tuvo éxito el intento de abrir modutils/built-in.o
+tuvo éxito el intento de abrir networking/built-in.o
+tuvo éxito el intento de abrir networking/libiproute/built-in.o
+tuvo éxito el intento de abrir networking/udhcp/built-in.o
+tuvo éxito el intento de abrir printutils/built-in.o
+tuvo éxito el intento de abrir procps/built-in.o
+tuvo éxito el intento de abrir runit/built-in.o
+tuvo éxito el intento de abrir selinux/built-in.o
+tuvo éxito el intento de abrir shell/built-in.o
+tuvo éxito el intento de abrir sysklogd/built-in.o
+tuvo éxito el intento de abrir util-linux/built-in.o
+tuvo éxito el intento de abrir util-linux/volume_id/built-in.o
 (coreutils/lib.a)basename.o
 (coreutils/lib.a)cat.o
 (coreutils/lib.a)chmod.o
@@ -485,490 +485,490 @@ attempt to open util-linux/volume_id/built-in.o succeeded
 (libbb/lib.a)perror_nomsg.o
 (libpwdgrp/lib.a)pwd_grp.o
 (libpwdgrp/lib.a)uidgid_get.o
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libcrypt.a failed
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/libcrypt.a failed
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a succeeded
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a)crypt.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a)des.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a)md5.os
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a succeeded
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_udivsi3.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_divsi3.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_lshrdi3.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_addsubdf3.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_muldivdf3.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_cmpdf2.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_fixdfsi.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_fixunsdfsi.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_aeabi_ldivmod.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_aeabi_uldivmod.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_dvmd_lnx.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)bpabi.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_divdi3.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_udivdi3.o
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a succeeded
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libc.a failed
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/libc.a failed
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a succeeded
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigaction.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setjmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bsd-_setjmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigrestorer.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)access.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)alarm.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chdir.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chmod.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chown.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chroot.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)delete_module.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dup2.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dup.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_exit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fchmod.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fchown.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fstat.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fsync.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ftruncate.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getcwd.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getegid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)geteuid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getgid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getgroups.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getpagesize.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getpgrp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gettimeofday.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getuid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)init_module.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ioctl.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)kill.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)klogctl.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lchown.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)link.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)longjmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lseek.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lstat.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mkdir.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mknod.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mount.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pipe.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)poll.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)readlink.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)reboot.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rename.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rmdir.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__rt_sigtimedwait.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__rt_sigwaitinfo.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)select.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setgid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setgroups.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setitimer.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setpgid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setpgrp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setrlimit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setsid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)settimeofday.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setuid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigprocmask.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigsuspend.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)stat.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)statfs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)stime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)symlink.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sync.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__syscall_fcntl.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__syscall_rt_sigaction.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)time.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)umask.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)umount2.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)umount.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)uname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)unlink.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)utime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)utimes.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wait.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)waitpid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xstatconv.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isalnum.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isalpha.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isgraph.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)islower.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isprint.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ispunct.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isspace.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isupper.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tolower.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)toupper.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isblank.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__ctype_b_loc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__ctype_tolower_loc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__ctype_toupper_loc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)closedir.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)opendir.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)readdir.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fnmatch.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)glob.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)errno.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__errno_location.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__h_errno_location.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setlocale.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_locale_init.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)newlocale.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__locale_mbrtowc_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__curlocale.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mntent.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)regex.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)syslog.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ctime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gmtime_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)localtime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)localtime_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mktime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strftime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strptime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tzset.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_t2tm.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__time_tm.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_mktime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_mktime_tzi.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_localtime_tzi.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)difftime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strftime_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strptime_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)btowc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbsinit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbrtowc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcrtomb.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbsrtowcs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_wchar_utf8sntowcs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbsnrtowcs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsnrtombs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswalnum.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswlower.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswpunct.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswspace.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wctype.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswctype.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towlower.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towupper.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswctype_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towlower_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towupper_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fclose.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fdopen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fopen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)freopen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fseeko.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)puts.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rewind.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setlinebuf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setvbuf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ungetc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)printf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vsprintf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fprintf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)snprintf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sprintf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vasprintf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vsnprintf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)popen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fseeko64.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_adjust_pos.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_fopen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdio.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_trans2r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_wcommit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_cs_funcs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_uintmaxtostr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)open_memstream.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vfprintf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_vfprintf_internal.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_init.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_prepargs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_setargs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_parsespec.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sscanf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fscanf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vsscanf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)feof.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ferror.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fflush.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgetc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgets.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fileno.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fread.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fwrite.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fflush_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgetc_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgets_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fileno_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputc_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputs_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fread_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fwrite_unlocked.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memcmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memmove.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memset.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strlen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memchr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mempcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memrchr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcat.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strchr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strchrnul.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcspn.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncat.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strnlen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strrchr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strsep.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strspn.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strstr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtok_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dirname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__glibc_strerror_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)stpcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcasecmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcasestr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strdup.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strerror.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncasecmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strpbrk.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtok.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strxfrm.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__xpg_strerror_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcscat.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcslen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsxfrm.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wmemchr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wmempcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcasecmp_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncasecmp_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strxfrm_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsxfrm_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isatty.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)speed.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcdrain.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcflush.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcgetattr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcgetpgrp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcsetattr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcsetpgrp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ttyname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)auth_unix.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)authunix_prot.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bindresvport.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_perror.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_tcp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_udp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)create_xid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pm_getmaps.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pm_getport.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_commondata.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_prot.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_array.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_mem.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_rec.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getservice.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)herror.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)if_index.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getaddrinfo.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ifaddrs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ntop.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)in6_addr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)inet_aton.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)inet_ntoa.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)inet_makeaddr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getnameinfo.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyaddr_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname2_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyaddr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname2.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)accept.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bind.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)connect.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getsockname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)listen.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)recvfrom.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)recvmsg.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)send.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sendto.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setsockopt.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)socket.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)opensock.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigaddset.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigdelset.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigempty.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigfillset.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigjmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)signal.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigsetops.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)malloc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)calloc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)realloc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)free.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)abort.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getenv.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)realpath.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mkstemp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rand.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)random.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)random_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setenv.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lrand48_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nrand48_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)srand48_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)grantpt.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)unlockpt.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ptsname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)atol.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtol.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtoul.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)qsort.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)qsort_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bsearch.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtoll.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtoull.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_ll.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtol_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_l_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_ll_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbstowcs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcstombs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_mb_cur_max.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtod.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__strtofpmax.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__fp_range_check.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__strtofpmax_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)exit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execl.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execle.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execlp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execv.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execvp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getopt.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sysconf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)usleep.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vfork.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fork.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-lowlevellock.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc_multiple_threads.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)register-atfork.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getpid.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)raise.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sleep.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)jmp-unwind.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)close.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)open.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)write.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)read.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-cancellation.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__uClibc_main.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_thread.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)atexit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)system.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)locale_data.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mmap.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__syscall_error.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__longjmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-aeabi_read_tp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)cmsg_nxthdr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execve.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdents.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdomainname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdtablesize.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getrlimit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mremap.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)munmap.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nanosleep.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sbrk.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wait4.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)llseek.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__C_ctype_b.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__C_ctype_tolower.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__C_ctype_toupper.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)readdir64.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tempname.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)parse_config.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nl_langinfo.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nl_langinfo_l.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)asctime.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)asctime_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsrtombs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_wchar_wcsntoutf8s.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)perror.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_READ.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_WRITE.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_fwrite.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_rfill.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_trans2w.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_load_inttype.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_store_inttype.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_fpmaxtostr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fopencookie.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vfscanf.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__scan_cookie.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__psfs_parse_spec.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__psfs_do_numeric.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_memcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rawmemchr.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_string_syserrmsgs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strlcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strndup.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcscmp.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcslcpy.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)auth_none.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_simple.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pmap_prot2.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pmap_prot.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)svc.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_reference.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)decoded.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dnslookup.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)opennameservers.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)closenameservers.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)get_hosts_byaddr_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)get_hosts_byname_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)recv.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)drand48-iter.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__cxa_atexit.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__exit_handler.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-tls.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dl-support.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)brk.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdents64.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)open64.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ffs.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pmap_clnt.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_dtablesize.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)svc_auth.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)svc_authux.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)encodeh.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)decodeh.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)encodeq.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)read_etc_hosts_r.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)encoded.os
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_truncdfsf2.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a)unwind-arm.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a)libunwind.o
-(/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a)pr-support.o
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o succeeded
-/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
-attempt to open /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o succeeded
-/home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.ocoreutils/lib.a(touch.o): In function `touch_main':
-touch.c:(.text.touch_main+0xe0): warning: the use of OBSOLESCENT `utime' is discouraged, use `utimes'
-libbb/lib.a(inet_common.o): In function `INET_rresolve':
-inet_common.c:(.text.INET_rresolve+0xcc): warning: gethostbyaddr is obsolescent, use getaddrinfo() instead.
-util-linux/lib.a(mount.o): In function `nfsmount':
-mount.c:(.text.nfsmount+0x128): warning: gethostbyname is obsolescent, use getnameinfo() instead.
+falló el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libcrypt.a
+falló el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/libcrypt.a
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a)crypt.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a)des.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libcrypt.a)md5.os
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_udivsi3.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_divsi3.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_lshrdi3.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_addsubdf3.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_muldivdf3.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_cmpdf2.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_fixdfsi.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_fixunsdfsi.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_aeabi_ldivmod.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_aeabi_uldivmod.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_dvmd_lnx.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)bpabi.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_divdi3.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_udivdi3.o
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a
+falló el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libc.a
+falló el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/libc.a
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigaction.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setjmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bsd-_setjmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigrestorer.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)access.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)alarm.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chdir.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chmod.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chown.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)chroot.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)delete_module.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dup2.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dup.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_exit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fchmod.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fchown.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fstat.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fsync.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ftruncate.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getcwd.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getegid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)geteuid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getgid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getgroups.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getpagesize.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getpgrp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gettimeofday.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getuid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)init_module.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ioctl.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)kill.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)klogctl.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lchown.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)link.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)longjmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lseek.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lstat.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mkdir.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mknod.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mount.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pipe.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)poll.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)readlink.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)reboot.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rename.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rmdir.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__rt_sigtimedwait.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__rt_sigwaitinfo.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)select.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setgid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setgroups.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setitimer.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setpgid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setpgrp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setrlimit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setsid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)settimeofday.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setuid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigprocmask.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigsuspend.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)stat.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)statfs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)stime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)symlink.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sync.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__syscall_fcntl.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__syscall_rt_sigaction.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)time.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)umask.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)umount2.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)umount.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)uname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)unlink.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)utime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)utimes.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wait.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)waitpid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xstatconv.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isalnum.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isalpha.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isgraph.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)islower.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isprint.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ispunct.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isspace.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isupper.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tolower.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)toupper.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isblank.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__ctype_b_loc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__ctype_tolower_loc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__ctype_toupper_loc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)closedir.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)opendir.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)readdir.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fnmatch.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)glob.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)errno.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__errno_location.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__h_errno_location.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setlocale.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_locale_init.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)newlocale.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__locale_mbrtowc_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__curlocale.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mntent.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)regex.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)syslog.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ctime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gmtime_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)localtime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)localtime_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mktime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strftime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strptime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tzset.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_t2tm.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__time_tm.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_mktime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_mktime_tzi.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_time_localtime_tzi.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)difftime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strftime_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strptime_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)btowc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbsinit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbrtowc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcrtomb.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbsrtowcs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_wchar_utf8sntowcs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbsnrtowcs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsnrtombs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswalnum.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswlower.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswpunct.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswspace.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wctype.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswctype.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towlower.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towupper.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)iswctype_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towlower_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)towupper_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fclose.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fdopen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fopen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)freopen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fseeko.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)puts.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rewind.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setlinebuf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setvbuf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ungetc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)printf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vsprintf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fprintf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)snprintf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sprintf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vasprintf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vsnprintf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)popen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fseeko64.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_adjust_pos.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_fopen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdio.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_trans2r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_wcommit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_cs_funcs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_uintmaxtostr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)open_memstream.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vfprintf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_vfprintf_internal.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_init.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_prepargs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_setargs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_ppfs_parsespec.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sscanf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fscanf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vsscanf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)feof.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ferror.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fflush.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgetc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgets.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fileno.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fread.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fwrite.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fflush_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgetc_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fgets_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fileno_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputc_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fputs_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fread_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fwrite_unlocked.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memcmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memmove.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memset.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strlen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memchr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mempcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)memrchr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcat.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strchr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strchrnul.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcspn.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncat.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strnlen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strrchr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strsep.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strspn.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strstr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtok_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dirname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__glibc_strerror_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)stpcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcasecmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcasestr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strdup.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strerror.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncasecmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strpbrk.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtok.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strxfrm.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__xpg_strerror_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcscat.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcslen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsxfrm.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wmemchr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wmempcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strcasecmp_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strncasecmp_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strxfrm_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsxfrm_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)isatty.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)speed.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcdrain.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcflush.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcgetattr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcgetpgrp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcsetattr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tcsetpgrp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ttyname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)auth_unix.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)authunix_prot.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bindresvport.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_perror.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_tcp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_udp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)create_xid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pm_getmaps.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pm_getport.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_commondata.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_prot.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_array.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_mem.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_rec.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getservice.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)herror.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)if_index.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getaddrinfo.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ifaddrs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ntop.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)in6_addr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)inet_aton.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)inet_ntoa.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)inet_makeaddr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getnameinfo.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyaddr_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname2_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyaddr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname2.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)accept.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bind.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)connect.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getsockname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)listen.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)recvfrom.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)recvmsg.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)send.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sendto.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setsockopt.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)socket.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)opensock.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigaddset.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigdelset.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigempty.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigfillset.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigjmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)signal.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sigsetops.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)malloc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)calloc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)realloc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)free.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)abort.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getenv.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)realpath.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mkstemp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rand.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)random.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)random_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)setenv.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)lrand48_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nrand48_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)srand48_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)grantpt.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)unlockpt.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ptsname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)atol.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtol.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtoul.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)qsort.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)qsort_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)bsearch.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtoll.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtoull.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_ll.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtol_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_l_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_strto_ll_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mbstowcs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcstombs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_stdlib_mb_cur_max.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strtod.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__strtofpmax.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__fp_range_check.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__strtofpmax_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)exit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execl.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execle.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execlp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execv.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execvp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getopt.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sysconf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)usleep.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vfork.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fork.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-lowlevellock.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc_multiple_threads.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)register-atfork.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getpid.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)raise.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sleep.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)jmp-unwind.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)close.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)open.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)write.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)read.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-cancellation.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__uClibc_main.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_thread.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)atexit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)system.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)locale_data.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mmap.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__syscall_error.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__longjmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-aeabi_read_tp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)cmsg_nxthdr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)execve.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdents.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdomainname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdtablesize.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getrlimit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)mremap.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)munmap.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nanosleep.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)sbrk.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wait4.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)llseek.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__C_ctype_b.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__C_ctype_tolower.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__C_ctype_toupper.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)readdir64.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)tempname.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)parse_config.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nl_langinfo.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)nl_langinfo_l.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)asctime.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)asctime_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcsrtombs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_wchar_wcsntoutf8s.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)perror.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_READ.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_WRITE.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_fwrite.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_rfill.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_trans2w.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_load_inttype.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_store_inttype.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_fpmaxtostr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)fopencookie.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)vfscanf.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__scan_cookie.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__psfs_parse_spec.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__psfs_do_numeric.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_memcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rawmemchr.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)_string_syserrmsgs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strlcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)strndup.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcscmp.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)wcslcpy.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)auth_none.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)clnt_simple.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pmap_prot2.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pmap_prot.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)svc.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)xdr_reference.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)decoded.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dnslookup.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)opennameservers.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)closenameservers.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)get_hosts_byaddr_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)get_hosts_byname_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)gethostbyname_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)recv.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)drand48-iter.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__cxa_atexit.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)__exit_handler.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)libc-tls.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)dl-support.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)brk.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)getdents64.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)open64.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)ffs.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)pmap_clnt.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)rpc_dtablesize.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)svc_auth.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)svc_authux.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)encodeh.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)decodeh.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)encodeq.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)read_etc_hosts_r.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/libc.a)encoded.os
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc.a)_arm_truncdfsf2.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a)unwind-arm.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a)libunwind.o
+(/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/libgcc_eh.a)pr-support.o
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/crtend.o
+tuvo éxito el intento de abrir /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.o
+/home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/../../../../arm-nuvoton-linux-uclibceabi/lib/crtn.ocoreutils/lib.a(touch.o): En la función `touch_main':
+touch.c:(.text.touch_main+0xe0): aviso: the use of OBSOLESCENT `utime' is discouraged, use `utimes'
+libbb/lib.a(inet_common.o): En la función `INET_rresolve':
+inet_common.c:(.text.INET_rresolve+0xcc): aviso: gethostbyaddr is obsolescent, use getaddrinfo() instead.
+util-linux/lib.a(mount.o): En la función `nfsmount':
+mount.c:(.text.nfsmount+0x128): aviso: gethostbyname is obsolescent, use getnameinfo() instead.
 

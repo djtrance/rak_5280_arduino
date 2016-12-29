@@ -13,15 +13,15 @@
 @ GNU C (GCC) version 4.8.4 (arm-nuvoton-linux-uclibceabi)
 @	compiled by GNU C version 4.1.2 20080704 (Red Hat 4.1.2-55), GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-@ options passed:  -nostdinc
-@ -I /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/sources/kernel/arch/arm/include
+@ opciones pasadas:  -nostdinc
+@ -I /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include
 @ -I include -I arch/arm/mach-w55fa93/include
-@ -iprefix /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/
-@ -isysroot /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../../arm_linux_4.8
+@ -iprefix /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/
+@ -isysroot /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../../arm_linux_4.8
 @ -D __KERNEL__ -D __LINUX_ARM_ARCH__=5 -U arm -D KBUILD_STR(s)=#s
 @ -D KBUILD_BASENAME=KBUILD_STR(asm_offsets)
 @ -D KBUILD_MODNAME=KBUILD_STR(asm_offsets)
-@ -isystem /home/swt/workspace/numaker/NuMaker_NuWicam_RDK-master/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include
+@ -isystem /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include
 @ -include include/generated/autoconf.h
 @ -MD arch/arm/kernel/.asm-offsets.s.d arch/arm/kernel/asm-offsets.c
 @ -mlittle-endian -marm -mapcs -mno-sched-prolog -mabi=aapcs-linux
@@ -33,7 +33,7 @@
 @ -fno-strict-aliasing -fno-common -fno-delete-null-pointer-checks
 @ -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls
 @ -fno-strict-overflow -fconserve-stack -fverbose-asm
-@ options enabled:  -faggressive-loop-optimizations -fauto-inc-dec
+@ opciones activadas:  -faggressive-loop-optimizations -fauto-inc-dec
 @ -fbranch-count-reg -fcaller-saves -fcombine-stack-adjustments
 @ -fcompare-elim -fcprop-registers -fcrossjumping -fcse-follow-jumps
 @ -fdefer-pop -fdevirtualize -fdwarf2-cfi-asm -fearly-inlining
