@@ -31,4 +31,4 @@ cd ..
 
  file test_curl
 
-cp test_curl $INSTALL_PATH 
+cp test_curl $INSTALL_PATH/bin 
