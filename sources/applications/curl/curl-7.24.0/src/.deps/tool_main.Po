@@ -1,0 +1,292 @@
+tool_main.o: tool_main.c setup.h curl_config.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/stdio.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/features.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_config.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/cdefs.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stddef.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/types.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/wordsize.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/typesizes.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/pthreadtypes.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/endian.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/endian.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/byteswap.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/byteswap.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/byteswap-common.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_stdio.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/wchar.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/wchar.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_mutex.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/pthread.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sched.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/time.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/sched.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/time.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_clk_tck.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/signal.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/sigset.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/setjmp.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_pthread.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdarg.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/stdio_lim.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/assert.h \
+ ../lib/setup_once.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/stdlib.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/types.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/select.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/select.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/sysmacros.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/alloca.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/string.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/ctype.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_touplow.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/errno.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/errno.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/linux/errno.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/errno.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno-base.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/stat.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/stat.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/time.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdbool.h \
+ ../include/curl/curl.h ../include/curl/curlver.h \
+ ../include/curl/curlbuild.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdint.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/stdint.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/inttypes.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/socket.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/uio.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uio.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/socket.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include-fixed/limits.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include-fixed/syslimits.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/limits.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/posix1_lim.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/local_lim.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/linux/limits.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_local_lim.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/posix2_lim.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/socket_type.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/sockaddr.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/socket.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/sockios.h \
+ ../include/curl/curlrules.h ../include/curl/easy.h \
+ ../include/curl/multi.h ../include/curl/curl.h \
+ ../include/curl/typecheck-gcc.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/unistd.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/posix_opt.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/confname.h \
+ /home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/getopt.h \
+ ../lib/curlx.h ../include/curl/mprintf.h ../lib/strequal.h \
+ ../lib/strtoofft.h ../lib/setup.h ../lib/curl_config.h \
+ ../include/curl/curlbuild.h ../include/curl/curlrules.h ../lib/timeval.h \
+ ../lib/nonblock.h ../lib/warnless.h tool_cfgable.h tool_sdecls.h \
+ tool_convert.h tool_operate.h tool_panykey.h tool_vms.h tool_main.h \
+ ../lib/memdebug.h
+
+setup.h:
+
+curl_config.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/stdio.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/features.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_config.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/cdefs.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stddef.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/types.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/wordsize.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/typesizes.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/pthreadtypes.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/endian.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/endian.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/byteswap.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/byteswap.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/byteswap-common.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_stdio.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/wchar.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/wchar.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_mutex.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/pthread.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sched.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/time.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/sched.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/time.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_clk_tck.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/signal.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/sigset.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/setjmp.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_pthread.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdarg.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/stdio_lim.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/assert.h:
+
+../lib/setup_once.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/stdlib.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/types.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/select.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/select.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/sysmacros.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/alloca.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/string.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/ctype.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_touplow.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/errno.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/errno.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/linux/errno.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/errno.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm-generic/errno-base.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/stat.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/stat.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/time.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdbool.h:
+
+../include/curl/curl.h:
+
+../include/curl/curlver.h:
+
+../include/curl/curlbuild.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdint.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/stdint.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/inttypes.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/socket.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/sys/uio.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uio.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/socket.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include-fixed/limits.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include-fixed/syslimits.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/limits.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/posix1_lim.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/local_lim.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/linux/limits.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/uClibc_local_lim.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/posix2_lim.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/socket_type.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/sockaddr.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/socket.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/arm-nuvoton-linux-uclibceabi/include/asm/sockios.h:
+
+../include/curl/curlrules.h:
+
+../include/curl/easy.h:
+
+../include/curl/multi.h:
+
+../include/curl/curl.h:
+
+../include/curl/typecheck-gcc.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/unistd.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/posix_opt.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/confname.h:
+
+/home/juan/Devs/mycode/rak_5280_arduino/compiler/arm_linux_4.8/usr/include/bits/getopt.h:
+
+../lib/curlx.h:
+
+../include/curl/mprintf.h:
+
+../lib/strequal.h:
+
+../lib/strtoofft.h:
+
+../lib/setup.h:
+
+../lib/curl_config.h:
+
+../include/curl/curlbuild.h:
+
+../include/curl/curlrules.h:
+
+../lib/timeval.h:
+
+../lib/nonblock.h:
+
+../lib/warnless.h:
+
+tool_cfgable.h:
+
+tool_sdecls.h:
+
+tool_convert.h:
+
+tool_operate.h:
+
+tool_panykey.h:
+
+tool_vms.h:
+
+tool_main.h:
+
+../lib/memdebug.h:
