@@ -1,4 +1,4 @@
-cmd_arch/arm/kernel/entry-armv.o := arm-linux-gcc -Wp,-MD,arch/arm/kernel/.entry-armv.o.d  -nostdinc -isystem /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include -I/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-w55fa93/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork  -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -include asm/unified.h -msoft-float       -c -o arch/arm/kernel/entry-armv.o arch/arm/kernel/entry-armv.S
+cmd_arch/arm/kernel/entry-armv.o := arm-linux-gcc -Wp,-MD,arch/arm/kernel/.entry-armv.o.d  -nostdinc -isystem /home/neo/Documentos/devs/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include -I/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-w55fa93/include -D__ASSEMBLY__ -mabi=aapcs-linux -mno-thumb-interwork  -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -include asm/unified.h -msoft-float       -c -o arch/arm/kernel/entry-armv.o arch/arm/kernel/entry-armv.S
 
 deps_arch/arm/kernel/entry-armv.o := \
   arch/arm/kernel/entry-armv.S \
@@ -21,9 +21,9 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/has/tls/reg.h) \
     $(wildcard include/config/tls/reg/emul.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unified.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/memory.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/highmem.h) \
     $(wildcard include/config/dram/size.h) \
@@ -37,12 +37,12 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/enable/warn/deprecated.h) \
   include/linux/const.h \
   arch/arm/mach-w55fa93/include/mach/memory.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sizes.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/flatmem.h) \
     $(wildcard include/config/sparsemem/vmemmap.h) \
     $(wildcard include/config/sparsemem.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/glue.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
     $(wildcard include/config/cpu/abrt/ev4.h) \
     $(wildcard include/config/cpu/abrt/ev4t.h) \
@@ -53,18 +53,18 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/vfpmacros.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/vfpmacros.h \
     $(wildcard include/config/vfpv3.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/vfp.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/vfp.h \
   arch/arm/mach-w55fa93/include/mach/entry-macro.S \
   arch/arm/mach-w55fa93/include/mach/hardware.h \
     $(wildcard include/config/no/multiword/io.h) \
   arch/arm/mach-w55fa93/include/mach/map.h \
   arch/arm/mach-w55fa93/include/mach/w55fa93_reg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/thread_notify.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unwind.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/thread_notify.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unwind.h \
     $(wildcard include/config/arm/unwind.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unistd.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unistd.h \
     $(wildcard include/config/oabi/compat.h) \
   arch/arm/kernel/entry-header.S \
     $(wildcard include/config/frame/pointer.h) \
@@ -75,19 +75,19 @@ deps_arch/arm/kernel/entry-armv.o := \
     $(wildcard include/config/modules.h) \
     $(wildcard include/config/hotplug.h) \
   include/linux/linkage.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/linkage.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/assembler.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/linkage.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/assembler.h \
     $(wildcard include/config/cpu/feroceon.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ptrace.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/hwcap.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/asm-offsets.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ptrace.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/hwcap.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/asm-offsets.h \
   include/generated/asm-offsets.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/errno.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/thread_info.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/fpstate.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/fpstate.h \
 
 arch/arm/kernel/entry-armv.o: $(deps_arch/arm/kernel/entry-armv.o)
 

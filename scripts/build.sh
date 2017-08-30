@@ -42,7 +42,7 @@ toolchain_make()
         $APT_GET install --force-yes ia32-libs ia32-libs-multiarch liblzo2-2:i386 liblzma5:i386
 	$APT_GET install --force-yes lib32ncurses5 lib32z1 lib32bz2
 	$APT_GET install --force-yes lib32stdc++6
-	$APT_GET install --force-yes libv4l-dev
+	$APT_GET install --force-yes libv4l-dev libncurses5-dev libncursesw5-dev
     fi
 
     if [[ -L "$TOOLCHAIN_ABS_PATH" && -d "$TOOLCHAIN_ABS_PATH" ]]; then

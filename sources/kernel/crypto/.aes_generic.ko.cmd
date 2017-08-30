@@ -1,1 +1,1 @@
-cmd_crypto/aes_generic.ko := arm-linux-ld -EL -r  -T /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/scripts/module-common.lds --build-id -o crypto/aes_generic.ko crypto/aes_generic.o crypto/aes_generic.mod.o
+cmd_crypto/aes_generic.ko := arm-linux-ld -EL -r  -T /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/scripts/module-common.lds --build-id -o crypto/aes_generic.ko crypto/aes_generic.o crypto/aes_generic.mod.o

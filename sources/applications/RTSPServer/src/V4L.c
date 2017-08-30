@@ -53,6 +53,28 @@ static S_V4L_VID_DATA s_sVidData = {
 static uint64_t s_u64PrevTS = 0;
 static uint64_t s_u32VidInFirstTS = 0;
 static uint32_t s_u32VidInFrames = 0;
+int print_frame=0;
+
+/* simple function to save a PNM file */
+int save_pnm (char *buf, int x, int y, int depth) {
+     static int inc=0;
+     FILE *fp;
+     char bewf[128];
+     sprintf (bewf, "image-%d.pnm", inc);
+     if ((fp=fopen(bewf, "w+")) == NULL) {
+          perror("open");
+	exit(1); 
+	}
+     if (depth==3) fprintf(fp, "P6\n%d %d\n255\n", x, y);
+     else if (depth==1) fprintf(fp, "P5\n%d %d\n255\n", x, y);
+
+     		fwrite ((unsigned char*) buf, x * y * depth, 1, fp);
+     		inc ++; // next name
+
+     fclose (fp);
+     return 1;
+     }
+
 
 ERRCODE
 InitV4LDevice(
@@ -181,6 +203,8 @@ InitV4LDevice(
 	}
 	s_sVidData.i32FrameSize = s_sVidData.sVidMMap.width  * s_sVidData.sVidMMap.height* 2;
 	s_sVidData.i32VidFD = i32VidFD;
+	// &s_sVidData.sVidMMap es la direccion del frame
+
 	return err;
 fail:
 	if (i32VidFD >= 0)
@@ -218,6 +242,17 @@ ReadV4LPicture(
 	}
 	s_u64PrevTS = psVideoSrcCtx->u64DataTime;
 	psVideoSrcCtx->pDataVAddr = s_sVidData.pu8VidBuf + s_sVidData.sVidMBufs.offsets[s_sVidData.i32VidFrame];
+
+
+	/* refer the frame to save */
+	//	buf = grab_data + grab_vm.offsets[frame];
+	/* Process the frame data pointed to by buf */
+	int depth = s_sVidData.sVidMMap.width*s_sVidData.sVidMMap.height*2;
+	if(print_frame<=15)
+		{
+	int a =	save_pnm(psVideoSrcCtx->pDataVAddr, s_sVidData.sVidMMap.width, s_sVidData.sVidMMap.height, depth);
+		print_frame++;
+		}
 
 #if defined (STATISTIC)
 

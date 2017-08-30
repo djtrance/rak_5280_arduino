@@ -14,14 +14,14 @@
 @	compiled by GNU C version 4.1.2 20080704 (Red Hat 4.1.2-55), GMP version 6.0.0, MPFR version 3.1.2-p11, MPC version 1.0.3
 @ GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 @ opciones pasadas:  -nostdinc
-@ -I /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include
+@ -I /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include
 @ -I include -I arch/arm/mach-w55fa93/include
-@ -iprefix /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/
-@ -isysroot /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../../arm_linux_4.8
+@ -iprefix /home/neo/Documentos/devs/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/
+@ -isysroot /home/neo/Documentos/devs/rak_5280_arduino/compiler/arm_linux_4.8/bin/../../arm_linux_4.8
 @ -D __KERNEL__ -D __LINUX_ARM_ARCH__=5 -U arm -D KBUILD_STR(s)=#s
 @ -D KBUILD_BASENAME=KBUILD_STR(bounds)
 @ -D KBUILD_MODNAME=KBUILD_STR(bounds)
-@ -isystem /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include
+@ -isystem /home/neo/Documentos/devs/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include
 @ -include include/generated/autoconf.h -MD kernel/.bounds.s.d
 @ kernel/bounds.c -mlittle-endian -marm -mapcs -mno-sched-prolog
 @ -mabi=aapcs-linux -mno-thumb-interwork -march=armv5te -mtune=arm9tdmi

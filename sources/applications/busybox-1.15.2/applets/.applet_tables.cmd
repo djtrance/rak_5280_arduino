@@ -12,7 +12,7 @@ deps_applets/applet_tables := \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/endian.h \
@@ -43,7 +43,7 @@ deps_applets/applet_tables := \
   /usr/include/libio.h \
   /usr/include/_G_config.h \
   /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
   /usr/include/x86_64-linux-gnu/bits/stdio.h \
@@ -101,7 +101,7 @@ deps_applets/applet_tables := \
   /usr/include/byteswap.h \
   /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
@@ -116,7 +116,7 @@ deps_applets/applet_tables := \
   /usr/include/asm-generic/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/socket2.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdbool.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdbool.h \
   /usr/include/ctype.h \
   /usr/include/dirent.h \
   /usr/include/x86_64-linux-gnu/bits/dirent.h \
@@ -176,8 +176,8 @@ deps_applets/applet_tables := \
   /usr/include/getopt.h \
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/utime.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
   /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/sys/param.h \

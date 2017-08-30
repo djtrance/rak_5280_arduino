@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.4
- * Thu Dec 29 16:47:03 2016
+ * Wed Aug  2 00:29:27 2017
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_KERNEL_GZIP 1

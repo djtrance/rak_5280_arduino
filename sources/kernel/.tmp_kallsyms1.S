@@ -862,192 +862,192 @@ kallsyms_addresses:
 	PTR	_text - 0x67808
 	PTR	_text - 0x67808
 	PTR	_text - 0x67000
-	PTR	_text - 0x2ec3
-	PTR	_text - 0x2ec0
-	PTR	_text - 0x2eb4
-	PTR	_text - 0x2eb0
-	PTR	_text - 0x2ab0
-	PTR	_text - 0x26b0
-	PTR	_text - 0x26ac
-	PTR	_text - 0x26a8
-	PTR	_text - 0x26a4
-	PTR	_text - 0x26a0
-	PTR	_text - 0x269c
-	PTR	_text - 0x2698
-	PTR	_text - 0x2658
-	PTR	_text - 0x2654
-	PTR	_text - 0x2650
-	PTR	_text - 0x264c
-	PTR	_text - 0x2648
-	PTR	_text - 0x2644
-	PTR	_text - 0x2640
-	PTR	_text - 0x263c
-	PTR	_text - 0x2638
-	PTR	_text - 0x2634
-	PTR	_text - 0x2630
+	PTR	_text - 0x2e3b
+	PTR	_text - 0x2e38
+	PTR	_text - 0x2e2c
+	PTR	_text - 0x2e28
+	PTR	_text - 0x2a28
 	PTR	_text - 0x2628
 	PTR	_text - 0x2624
 	PTR	_text - 0x2620
 	PTR	_text - 0x261c
 	PTR	_text - 0x2618
+	PTR	_text - 0x2614
 	PTR	_text - 0x2610
-	PTR	_text - 0x2608
-	PTR	_text - 0x25e8
-	PTR	_text - 0x25e4
-	PTR	_text - 0x25e0
-	PTR	_text - 0x25dc
-	PTR	_text - 0x25d8
-	PTR	_text - 0x25d4
 	PTR	_text - 0x25d0
 	PTR	_text - 0x25cc
 	PTR	_text - 0x25c8
 	PTR	_text - 0x25c4
 	PTR	_text - 0x25c0
+	PTR	_text - 0x25bc
+	PTR	_text - 0x25b8
+	PTR	_text - 0x25b4
+	PTR	_text - 0x25b0
+	PTR	_text - 0x25ac
+	PTR	_text - 0x25a8
+	PTR	_text - 0x25a0
+	PTR	_text - 0x259c
+	PTR	_text - 0x2598
+	PTR	_text - 0x2594
+	PTR	_text - 0x2590
+	PTR	_text - 0x2588
 	PTR	_text - 0x2580
-	PTR	_text - 0x2578
-	PTR	_text - 0x2574
-	PTR	_text - 0x2570
-	PTR	_text - 0x256c
-	PTR	_text - 0x2568
-	PTR	_text - 0x2564
 	PTR	_text - 0x2560
+	PTR	_text - 0x255c
+	PTR	_text - 0x2558
+	PTR	_text - 0x2554
+	PTR	_text - 0x2550
+	PTR	_text - 0x254c
+	PTR	_text - 0x2548
+	PTR	_text - 0x2544
+	PTR	_text - 0x2540
+	PTR	_text - 0x253c
+	PTR	_text - 0x2538
+	PTR	_text - 0x24f8
+	PTR	_text - 0x24f0
+	PTR	_text - 0x24ec
+	PTR	_text - 0x24e8
+	PTR	_text - 0x24e4
 	PTR	_text - 0x24e0
 	PTR	_text - 0x24dc
 	PTR	_text - 0x24d8
-	PTR	_text - 0x24d4
-	PTR	_text - 0x20d4
-	PTR	_text - 0x20a8
-	PTR	_text - 0x20a4
-	PTR	_text - 0x20a0
-	PTR	_text - 0x1ca0
-	PTR	_text - 0x1c9c
-	PTR	_text - 0x1c98
-	PTR	_text - 0x1c0c
-	PTR	_text - 0x1c08
-	PTR	_text - 0x1c04
-	PTR	_text - 0x1c00
-	PTR	_text - 0x1bf8
-	PTR	_text - 0x1bec
-	PTR	_text - 0x1bc8
-	PTR	_text - 0x1ba4
-	PTR	_text - 0x1b6c
+	PTR	_text - 0x2458
+	PTR	_text - 0x2454
+	PTR	_text - 0x2450
+	PTR	_text - 0x244c
+	PTR	_text - 0x204c
+	PTR	_text - 0x2020
+	PTR	_text - 0x201c
+	PTR	_text - 0x2018
+	PTR	_text - 0x1c18
+	PTR	_text - 0x1c14
+	PTR	_text - 0x1c10
+	PTR	_text - 0x1b84
+	PTR	_text - 0x1b80
+	PTR	_text - 0x1b7c
+	PTR	_text - 0x1b78
+	PTR	_text - 0x1b70
 	PTR	_text - 0x1b64
-	PTR	_text - 0x19f4
-	PTR	_text - 0x1964
-	PTR	_text - 0x195c
-	PTR	_text - 0x1940
-	PTR	_text - 0x193c
-	PTR	_text - 0x18a0
-	PTR	_text - 0x188c
-	PTR	_text - 0x17e4
-	PTR	_text - 0x17e0
-	PTR	_text - 0x17dc
-	PTR	_text - 0x17c0
-	PTR	_text - 0x17b8
-	PTR	_text - 0x17b0
-	PTR	_text - 0x17ac
-	PTR	_text - 0xf2c
-	PTR	_text - 0xf24
-	PTR	_text - 0xf1c
-	PTR	_text - 0xf14
-	PTR	_text - 0xf0c
-	PTR	_text - 0xf04
-	PTR	_text - 0xee8
-	PTR	_text - 0xeb8
+	PTR	_text - 0x1b40
+	PTR	_text - 0x1b1c
+	PTR	_text - 0x1ae4
+	PTR	_text - 0x1adc
+	PTR	_text - 0x196c
+	PTR	_text - 0x18dc
+	PTR	_text - 0x18d4
+	PTR	_text - 0x18b8
+	PTR	_text - 0x18b4
+	PTR	_text - 0x1818
+	PTR	_text - 0x1804
+	PTR	_text - 0x175c
+	PTR	_text - 0x1758
+	PTR	_text - 0x1754
+	PTR	_text - 0x1738
+	PTR	_text - 0x1730
+	PTR	_text - 0x1728
+	PTR	_text - 0x1724
+	PTR	_text - 0xea4
 	PTR	_text - 0xe9c
-	PTR	_text - 0xe90
-	PTR	_text - 0xe74
-	PTR	_text - 0xe58
-	PTR	_text - 0xe3c
-	PTR	_text - 0xe20
-	PTR	_text - 0xe04
-	PTR	_text - 0xde8
-	PTR	_text - 0xde4
-	PTR	_text - 0xdd4
-	PTR	_text - 0xdb8
-	PTR	_text - 0xd9c
-	PTR	_text - 0xd80
-	PTR	_text - 0xd74
-	PTR	_text - 0xd70
-	PTR	_text - 0xd54
-	PTR	_text - 0xd38
-	PTR	_text - 0xd34
-	PTR	_text - 0xd18
-	PTR	_text - 0xd0c
-	PTR	_text - 0xcf0
-	PTR	_text - 0xcd4
-	PTR	_text - 0xcb8
-	PTR	_text - 0xc9c
+	PTR	_text - 0xe94
+	PTR	_text - 0xe8c
+	PTR	_text - 0xe84
+	PTR	_text - 0xe7c
+	PTR	_text - 0xe60
+	PTR	_text - 0xe30
+	PTR	_text - 0xe14
+	PTR	_text - 0xe08
+	PTR	_text - 0xdec
+	PTR	_text - 0xdd0
+	PTR	_text - 0xdb4
+	PTR	_text - 0xd98
+	PTR	_text - 0xd7c
+	PTR	_text - 0xd60
+	PTR	_text - 0xd5c
+	PTR	_text - 0xd4c
+	PTR	_text - 0xd30
+	PTR	_text - 0xd14
+	PTR	_text - 0xcf8
+	PTR	_text - 0xcec
+	PTR	_text - 0xce8
+	PTR	_text - 0xccc
+	PTR	_text - 0xcb0
+	PTR	_text - 0xcac
 	PTR	_text - 0xc90
-	PTR	_text - 0xc8c
-	PTR	_text - 0xc80
-	PTR	_text - 0xc7c
-	PTR	_text - 0xc78
-	PTR	_text - 0xc70
-	PTR	_text - 0xc70
-	PTR	_text - 0xc70
+	PTR	_text - 0xc84
 	PTR	_text - 0xc68
-	PTR	_text - 0xc62
-	PTR	_text - 0xc59
-	PTR	_text - 0xc53
-	PTR	_text - 0xc4d
-	PTR	_text - 0xc3f
-	PTR	_text - 0xc34
-	PTR	_text - 0xc28
-	PTR	_text - 0xc1d
+	PTR	_text - 0xc4c
+	PTR	_text - 0xc30
 	PTR	_text - 0xc14
-	PTR	_text - 0xc0e
-	PTR	_text - 0xc0b
 	PTR	_text - 0xc08
-	PTR	_text - 0xbfa
-	PTR	_text - 0xbeb
-	PTR	_text - 0xbdb
-	PTR	_text - 0xbd2
-	PTR	_text - 0xbc4
-	PTR	_text - 0xbbf
+	PTR	_text - 0xc04
+	PTR	_text - 0xbf8
+	PTR	_text - 0xbf4
+	PTR	_text - 0xbf0
+	PTR	_text - 0xbe8
+	PTR	_text - 0xbe8
+	PTR	_text - 0xbe8
+	PTR	_text - 0xbe0
+	PTR	_text - 0xbda
+	PTR	_text - 0xbd1
+	PTR	_text - 0xbcb
+	PTR	_text - 0xbc5
 	PTR	_text - 0xbb7
-	PTR	_text - 0xbb3
-	PTR	_text - 0xbad
-	PTR	_text - 0xba9
-	PTR	_text - 0xba4
-	PTR	_text - 0xb99
-	PTR	_text - 0xb92
-	PTR	_text - 0xb8a
-	PTR	_text - 0xb82
-	PTR	_text - 0xb7e
-	PTR	_text - 0xb79
-	PTR	_text - 0xb71
-	PTR	_text - 0xb65
-	PTR	_text - 0xb54
-	PTR	_text - 0xb41
-	PTR	_text - 0xb38
-	PTR	_text - 0xb28
-	PTR	_text - 0xb1b
-	PTR	_text - 0xb14
-	PTR	_text - 0xb0b
-	PTR	_text - 0xafe
+	PTR	_text - 0xbac
+	PTR	_text - 0xba0
+	PTR	_text - 0xb95
+	PTR	_text - 0xb8c
+	PTR	_text - 0xb86
+	PTR	_text - 0xb83
+	PTR	_text - 0xb80
+	PTR	_text - 0xb72
+	PTR	_text - 0xb63
+	PTR	_text - 0xb53
+	PTR	_text - 0xb4a
+	PTR	_text - 0xb3c
+	PTR	_text - 0xb37
+	PTR	_text - 0xb2f
+	PTR	_text - 0xb2b
+	PTR	_text - 0xb25
+	PTR	_text - 0xb21
+	PTR	_text - 0xb1c
+	PTR	_text - 0xb11
+	PTR	_text - 0xb0a
+	PTR	_text - 0xb02
+	PTR	_text - 0xafa
+	PTR	_text - 0xaf6
+	PTR	_text - 0xaf1
 	PTR	_text - 0xae9
-	PTR	_text - 0xadb
-	PTR	_text - 0xad4
-	PTR	_text - 0xac7
-	PTR	_text - 0xabf
-	PTR	_text - 0xab6
-	PTR	_text - 0xaab
-	PTR	_text - 0xa9d
-	PTR	_text - 0xa8d
-	PTR	_text - 0xa82
-	PTR	_text - 0xa75
-	PTR	_text - 0xa66
-	PTR	_text - 0xa57
-	PTR	_text - 0xa4d
-	PTR	_text - 0xa3d
-	PTR	_text - 0xa2f
-	PTR	_text - 0xa25
-	PTR	_text - 0xa1d
-	PTR	_text - 0xa16
+	PTR	_text - 0xadd
+	PTR	_text - 0xacc
+	PTR	_text - 0xab9
+	PTR	_text - 0xab0
+	PTR	_text - 0xaa0
+	PTR	_text - 0xa93
+	PTR	_text - 0xa8c
+	PTR	_text - 0xa83
+	PTR	_text - 0xa76
+	PTR	_text - 0xa61
+	PTR	_text - 0xa53
+	PTR	_text - 0xa4c
+	PTR	_text - 0xa3f
+	PTR	_text - 0xa37
+	PTR	_text - 0xa2e
+	PTR	_text - 0xa23
+	PTR	_text - 0xa15
+	PTR	_text - 0xa05
+	PTR	_text - 0x9fa
 	PTR	_text - 0x9ed
 	PTR	_text - 0x9de
 	PTR	_text - 0x9cf
+	PTR	_text - 0x9c5
+	PTR	_text - 0x9b5
+	PTR	_text - 0x9a7
+	PTR	_text - 0x99d
+	PTR	_text - 0x995
+	PTR	_text - 0x98e
+	PTR	_text - 0x965
+	PTR	_text - 0x956
+	PTR	_text - 0x947
 	PTR	_text + 0
 	PTR	_text + 0
 	PTR	_text + 0
@@ -11495,7 +11495,7 @@ kallsyms_addresses:
 	PTR	_text + 0x22ded1
 	PTR	_text + 0x22dedd
 	PTR	_text + 0x22deec
-	PTR	_text + 0x22df32
+	PTR	_text + 0x22df33
 	PTR	_text + 0x22dfac
 	PTR	_text + 0x22dfb8
 	PTR	_text + 0x22e038
@@ -12550,8 +12550,8 @@ kallsyms_addresses:
 	PTR	_text + 0x247620
 	PTR	_text + 0x247630
 	PTR	_text + 0x247698
-	PTR	_text + 0x270ca4
-	PTR	_text + 0x270e3c
+	PTR	_text + 0x270ca0
+	PTR	_text + 0x270e38
 	PTR	_text + 0x272000
 	PTR	_text + 0x272000
 	PTR	_text + 0x272000

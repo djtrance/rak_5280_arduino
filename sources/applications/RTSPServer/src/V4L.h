@@ -96,6 +96,8 @@ typedef struct S_NM_VIDEOCTX {
 	uint32_t		u32Y;				///< Pixel, > 0 (ONLY used for cropping/clipping window)
 } S_NM_VIDEOCTX;
 
+int save_pnm (char *buf, int x, int y, int depth);
+
 ERRCODE
 InitV4LDevice(
 	S_NM_VIDEOCTX *psVideoSrcCtx

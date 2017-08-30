@@ -1,22 +1,22 @@
-cmd_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o := arm-linux-gcc -Wp,-MD,/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/.phydm_dynamictxpower.o.d  -nostdinc -isystem /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include -I/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-w55fa93/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -O2 -Wno-unused-variable -Wno-unused-value -Wno-unused-label -Wno-unused-parameter -Wno-unused-function -Wno-unused -I/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include -I/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm -I/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/platform -DCONFIG_RTL8188F -DCONFIG_MP_INCLUDED -DCONFIG_POWER_SAVING -DCONFIG_TRAFFIC_PROTECT -DCONFIG_LOAD_PHY_PARA_FROM_FILE -DREALTEK_CONFIG_PATH=\"\" -DCONFIG_RTW_ADAPTIVITY_EN=0 -DCONFIG_RTW_ADAPTIVITY_MODE=0 -DCONFIG_RTW_SDIO_PM_KEEP_POWER -DCONFIG_BR_EXT '-DCONFIG_BR_EXT_BRNAME="'br0'"' -DCONFIG_WIFI_MONITOR -DDM_ODM_SUPPORT_TYPE=0x04 -DCONFIG_LITTLE_ENDIAN -DCONFIG_CONCURRENT_MODE -DCONFIG_MINIMAL_MEMORY_USAGE  -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(phydm_dynamictxpower)"  -D"KBUILD_MODNAME=KBUILD_STR(8189fs)"  -c -o /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.c
+cmd_/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o := arm-linux-gcc -Wp,-MD,/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/.phydm_dynamictxpower.o.d  -nostdinc -isystem /home/neo/Documentos/devs/rak_5280_arduino/compiler/arm_linux_4.8/bin/../lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include -I/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-w55fa93/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -Os -marm -fno-omit-frame-pointer -mapcs -mno-sched-prolog -mabi=aapcs-linux -mno-thumb-interwork -D__LINUX_ARM_ARCH__=5 -march=armv5te -mtune=arm9tdmi -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -fno-omit-frame-pointer -fno-optimize-sibling-calls -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -O2 -Wno-unused-variable -Wno-unused-value -Wno-unused-label -Wno-unused-parameter -Wno-unused-function -Wno-unused -I/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include -I/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm -I/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/platform -DCONFIG_RTL8188F -DCONFIG_MP_INCLUDED -DCONFIG_POWER_SAVING -DCONFIG_TRAFFIC_PROTECT -DCONFIG_LOAD_PHY_PARA_FROM_FILE -DREALTEK_CONFIG_PATH=\"\" -DCONFIG_RTW_ADAPTIVITY_EN=0 -DCONFIG_RTW_ADAPTIVITY_MODE=0 -DCONFIG_RTW_SDIO_PM_KEEP_POWER -DCONFIG_BR_EXT '-DCONFIG_BR_EXT_BRNAME="'br0'"' -DCONFIG_WIFI_MONITOR -DDM_ODM_SUPPORT_TYPE=0x04 -DCONFIG_LITTLE_ENDIAN -DCONFIG_CONCURRENT_MODE -DCONFIG_MINIMAL_MEMORY_USAGE  -DMODULE -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(phydm_dynamictxpower)"  -D"KBUILD_MODNAME=KBUILD_STR(8189fs)"  -c -o /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.c
 
-deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o := \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.c \
+deps_/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o := \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.c \
     $(wildcard include/config/rtl/92d/support.h) \
     $(wildcard include/config/rtl/92c/support.h) \
     $(wildcard include/config/wlan/hal/8192ee.h) \
     $(wildcard include/config/wlan/hal/8814ae.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/mp_precomp.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_precomp.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/mp_precomp.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_precomp.h \
     $(wildcard include/config/sfw/supported.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_types.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_types.h \
     $(wildcard include/config/pci/hci.h) \
     $(wildcard include/config/usb/hci.h) \
     $(wildcard include/config/sdio/hci.h) \
     $(wildcard include/config/gspi/hci.h) \
     $(wildcard include/config/little/endian.h) \
     $(wildcard include/config/big/endian.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_types.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_types.h \
     $(wildcard include/config/arp/keep/alive.h) \
     $(wildcard include/config/80211n/ht.h) \
     $(wildcard include/config/80211ac/vht.h) \
@@ -60,7 +60,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/pno/support.h) \
     $(wildcard include/config/pno/set/debug.h) \
     $(wildcard include/config/wowlan.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_conf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_conf.h \
     $(wildcard include/config/android.h) \
     $(wildcard include/config/platform/android.h) \
     $(wildcard include/config/validate/ssid.h) \
@@ -97,7 +97,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/deauth/before/connect.h) \
     $(wildcard include/config/wext/dont/join/byssid.h) \
     $(wildcard include/config/doscan/in/busytraffic.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/autoconf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/autoconf.h \
     $(wildcard include/config/rtl8188f.h) \
     $(wildcard include/config/recv/reordering/ctrl.h) \
     $(wildcard include/config/platform/intel/byt.h) \
@@ -162,23 +162,23 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/proc/debug.h) \
     $(wildcard include/config/error/detect.h) \
     $(wildcard include/config/fw/c2h/debug.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_ic_cfg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_ic_cfg.h \
     $(wildcard include/config/multidrv.h) \
     $(wildcard include/config/rtl8188e.h) \
     $(wildcard include/config/rtl8192e.h) \
     $(wildcard include/config/rtl8723b.h) \
     $(wildcard include/config/rtl8703b.h) \
     $(wildcard include/config/rtl8822b.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/basic_types.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/basic_types.h \
   include/linux/version.h \
   include/linux/types.h \
     $(wildcard include/config/uid16.h) \
     $(wildcard include/config/lbdaf.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/types.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bitsperlong.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
   include/linux/stddef.h \
@@ -191,7 +191,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/arch/supports/optimized/inlining.h) \
     $(wildcard include/config/optimize/inlining.h) \
   include/linux/compiler-gcc4.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/posix_types.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/posix_types.h \
   include/linux/module.h \
     $(wildcard include/config/symbol/prefix.h) \
     $(wildcard include/config/modules.h) \
@@ -212,16 +212,16 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/poison.h \
     $(wildcard include/config/illegal/pointer/value.h) \
   include/linux/prefetch.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/processor.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/processor.h \
     $(wildcard include/config/mmu.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ptrace.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/hwcap.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/cache.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/hwcap.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/system.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/system.h \
     $(wildcard include/config/cpu/xsc3.h) \
     $(wildcard include/config/cpu/fa526.h) \
     $(wildcard include/config/arch/has/barriers.h) \
@@ -230,21 +230,21 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/cpu/sa110.h) \
     $(wildcard include/config/cpu/32v6k.h) \
   include/linux/linkage.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/linkage.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/linkage.h \
   include/linux/irqflags.h \
     $(wildcard include/config/trace/irqflags.h) \
     $(wildcard include/config/irqsoff/tracer.h) \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/irqflags.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/outercache.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/irqflags.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/asm-generic/cmpxchg-local.h \
   include/asm-generic/cmpxchg.h \
   include/linux/stat.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/stat.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
@@ -257,12 +257,12 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/dynamic/debug.h) \
     $(wildcard include/config/ring/buffer.h) \
     $(wildcard include/config/numa.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdarg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/compiler/arm_linux_4.8/lib/gcc/arm-nuvoton-linux-uclibceabi/4.8.4/include/stdarg.h \
   include/linux/bitops.h \
     $(wildcard include/config/generic/find/first/bit.h) \
     $(wildcard include/config/generic/find/last/bit.h) \
     $(wildcard include/config/generic/find/next/bit.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bitops.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bitops.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -274,12 +274,12 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/arch/has/ilog2/u32.h) \
     $(wildcard include/config/arch/has/ilog2/u64.h) \
   include/linux/dynamic_debug.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/byteorder.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/swab.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bug.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
@@ -295,12 +295,12 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/preempt/notifiers.h) \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/thread_info.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/fpstate.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/domain.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
@@ -315,12 +315,12 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/spinlock_up.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_up.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/atomic.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/atomic.h \
     $(wildcard include/config/generic/atomic64.h) \
   include/asm-generic/atomic64.h \
   include/asm-generic/atomic-long.h \
   include/linux/math64.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/div64.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/div64.h \
   include/linux/kmod.h \
   include/linux/gfp.h \
     $(wildcard include/config/kmemcheck.h) \
@@ -349,7 +349,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/holes/in/zone.h) \
     $(wildcard include/config/arch/has/holes/memorymodel.h) \
   include/linux/wait.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/current.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/current.h \
   include/linux/threads.h \
     $(wildcard include/config/nr/cpus.h) \
     $(wildcard include/config/base/small.h) \
@@ -361,12 +361,12 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/string.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/page.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -374,7 +374,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/cpu/copy/fa.h) \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/glue.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/glue.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm710.h) \
     $(wildcard include/config/cpu/abrt/lv4t.h) \
@@ -387,14 +387,14 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/cpu/pabrt/legacy.h) \
     $(wildcard include/config/cpu/pabrt/v6.h) \
     $(wildcard include/config/cpu/pabrt/v7.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/memory.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/dram/size.h) \
     $(wildcard include/config/dram/base.h) \
   include/linux/const.h \
   arch/arm/mach-w55fa93/include/mach/memory.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sizes.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
   include/asm-generic/getorder.h \
@@ -403,7 +403,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/memory/hotremove.h) \
   include/linux/notifier.h \
   include/linux/errno.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/errno.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/mutex.h \
@@ -428,11 +428,11 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/pfn.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/percpu.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/topology.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/virtual.h) \
@@ -446,9 +446,9 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/param.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/timex.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/timex.h \
   arch/arm/mach-w55fa93/include/mach/timex.h \
     $(wildcard include/config/extclk/12m.h) \
     $(wildcard include/config/extclk/27m.h) \
@@ -457,8 +457,8 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/debug/objects/free.h) \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/elf.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/user.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/elf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/user.h \
   include/linux/kobject.h \
   include/linux/sysfs.h \
   include/linux/kref.h \
@@ -475,7 +475,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/completion.h \
   include/linux/rcutree.h \
     $(wildcard include/config/no/hz.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/module.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/trace/define_trace.h \
@@ -525,24 +525,24 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/proc/fs.h) \
     $(wildcard include/config/mmu/notifier.h) \
   include/linux/auxvec.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/auxvec.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/auxvec.h \
   include/linux/prio_tree.h \
   include/linux/page-debug-flags.h \
     $(wildcard include/config/page/poisoning.h) \
     $(wildcard include/config/page/debug/something/else.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/mmu.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/mmu.h \
     $(wildcard include/config/cpu/has/asid.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/cputime.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/cputime.h \
   include/asm-generic/cputime.h \
   include/linux/sem.h \
   include/linux/ipc.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ipcbuf.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sembuf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ipcbuf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sembuf.h \
   include/linux/signal.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/signal.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/signal.h \
   include/asm-generic/signal-defs.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sigcontext.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/siginfo.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sigcontext.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/siginfo.h \
   include/asm-generic/siginfo.h \
   include/linux/path.h \
   include/linux/pid.h \
@@ -556,7 +556,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
   include/linux/resource.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/resource.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/resource.h \
   include/asm-generic/resource.h \
   include/linux/hrtimer.h \
     $(wildcard include/config/high/res/timers.h) \
@@ -577,10 +577,10 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/nsproxy.h \
     $(wildcard include/config/cgroup/ns.h) \
   include/linux/err.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/osdep_service.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/osdep_service.h \
     $(wildcard include/config/use/vmalloc.h) \
     $(wildcard include/config/ap/wowlan.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/osdep_service_linux.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/osdep_service_linux.h \
     $(wildcard include/config/net/radio.h) \
     $(wildcard include/config/wireless/ext.h) \
     $(wildcard include/config/tcp/csum/offload/tx.h) \
@@ -619,8 +619,8 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/netpoll/trap.h) \
   include/linux/if.h \
   include/linux/socket.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/socket.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sockios.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/socket.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/sockios.h \
   include/linux/sockios.h \
   include/linux/hdlc/ioctl.h \
   include/linux/if_ether.h \
@@ -637,19 +637,19 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/net.h \
   include/linux/random.h \
   include/linux/ioctl.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ioctl.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/linux/irqnr.h \
   include/linux/fcntl.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/fcntl.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/ratelimit.h \
   include/linux/textsearch.h \
   include/net/checksum.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/uaccess.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unified.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/uaccess.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/checksum.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/checksum.h \
   include/linux/in6.h \
   include/linux/dmaengine.h \
     $(wildcard include/config/async/tx/disable/channel/switch.h) \
@@ -665,7 +665,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/pm/sleep.h) \
     $(wildcard include/config/pm/runtime.h) \
     $(wildcard include/config/pm/ops.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/device.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
     $(wildcard include/config/pm.h) \
@@ -677,7 +677,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/bug.h \
   include/linux/scatterlist.h \
     $(wildcard include/config/debug/sg.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/scatterlist.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/scatterlist.h \
   include/asm-generic/scatterlist.h \
     $(wildcard include/config/need/sg/dma/length.h) \
   include/linux/mm.h \
@@ -687,10 +687,10 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/debug_locks.h \
     $(wildcard include/config/debug/locking/api/selftests.h) \
   include/linux/range.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/pgtable.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/pgtable.h \
     $(wildcard include/config/highpte.h) \
   include/asm-generic/4level-fixup.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/proc-fns.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/proc-fns.h \
     $(wildcard include/config/cpu/arm7tdmi.h) \
     $(wildcard include/config/cpu/arm720t.h) \
     $(wildcard include/config/cpu/arm740t.h) \
@@ -709,9 +709,9 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/cpu/feroceon.h) \
     $(wildcard include/config/cpu/v6.h) \
     $(wildcard include/config/cpu/v7.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/cpu-single.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/cpu-single.h \
   arch/arm/mach-w55fa93/include/mach/vmalloc.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/pgtable-hwdef.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/pgtable-hwdef.h \
   include/asm-generic/pgtable.h \
   include/linux/page-flags.h \
     $(wildcard include/config/pageflags/extended.h) \
@@ -721,9 +721,9 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/s390.h) \
   include/linux/vmstat.h \
     $(wildcard include/config/vm/event/counters.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/io.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/io.h \
   arch/arm/mach-w55fa93/include/mach/io.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/dma-mapping.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/dma-mapping.h \
   include/asm-generic/dma-coherent.h \
     $(wildcard include/config/have/generic/dma/coherent.h) \
   include/linux/if_packet.h \
@@ -733,7 +733,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/miscdevice.h \
   include/linux/major.h \
   include/linux/delay.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/delay.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/delay.h \
   include/linux/ethtool.h \
   include/net/net_namespace.h \
     $(wildcard include/config/ipv6.h) \
@@ -778,15 +778,15 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/lock/kernel.h) \
   include/linux/ftrace_irq.h \
     $(wildcard include/config/ftrace/nmi/enter.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/hardirq.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/irq.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/hardirq.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/irq.h \
   arch/arm/mach-w55fa93/include/mach/irqs.h \
   include/linux/irq_cpustat.h \
   include/linux/circ_buf.h \
   include/linux/semaphore.h \
   include/linux/etherdevice.h \
     $(wildcard include/config/have/efficient/unaligned/access.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unaligned.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/arch/arm/include/asm/unaligned.h \
   include/linux/unaligned/le_byteshift.h \
   include/linux/unaligned/be_byteshift.h \
   include/linux/unaligned/generic.h \
@@ -803,11 +803,11 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/limits.h \
   include/net/ieee80211_radiotap.h \
   include/linux/ieee80211.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_byteorder.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_byteorder.h \
     $(wildcard include/config/platform/mstar389.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/byteorder/little_endian.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/wlan_bssdef.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/wifi.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/byteorder/little_endian.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/wlan_bssdef.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/wifi.h \
     $(wildcard include/config/rtl8712fw.h) \
     $(wildcard include/config/error.h) \
     $(wildcard include/config/method/flash.h) \
@@ -823,12 +823,12 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/method/ppbc.h) \
     $(wildcard include/config/method/vdisplay.h) \
     $(wildcard include/config/method/pdisplay.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/ieee80211.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/ieee80211.h \
     $(wildcard include/config/rtl8711fw.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_types_linux.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_debug.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_types_linux.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_debug.h \
     $(wildcard include/config/p2p/wowlan.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_rf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_rf.h \
     $(wildcard include/config/.h) \
     $(wildcard include/config/1t.h) \
     $(wildcard include/config/2t.h) \
@@ -836,14 +836,14 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/2r.h) \
     $(wildcard include/config/1t2r.h) \
     $(wildcard include/config/turbo.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ht.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_cmd.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ht.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_cmd.h \
     $(wildcard include/config/event/thread/mode.h) \
     $(wildcard include/config/c2h/wk.h) \
     $(wildcard include/config/h2clbk.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/cmd_osdep.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_security.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_xmit.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/cmd_osdep.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_security.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_xmit.h \
     $(wildcard include/config/usb/tx/aggregation.h) \
     $(wildcard include/config/platform/arm/sunxi.h) \
     $(wildcard include/config/platform/arm/sun6i.h) \
@@ -853,8 +853,8 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/platform/mstar.h) \
     $(wildcard include/config/single/xmit/buf.h) \
     $(wildcard include/config/sdio/tx/tasklet.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/xmit_osdep.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_recv.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/xmit_osdep.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_recv.h \
     $(wildcard include/config/single/recv/buf.h) \
     $(wildcard include/config/tcp/csum/offload/rx.h) \
     $(wildcard include/config/recv/thread/mode.h) \
@@ -862,39 +862,39 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/rx/indicate/queue.h) \
     $(wildcard include/config/bsd/rx/use/mbuf.h) \
     $(wildcard include/config/signal/scale/mapping.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/recv_osdep.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_efuse.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_sreset.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_intf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/recv_osdep.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_efuse.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_sreset.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_intf.h \
     $(wildcard include/config/support/usb/int.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com.h \
     $(wildcard include/config/background/noise/monitor.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/HalVerDef.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_pg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_phy.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_phy_reg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_reg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/HalVerDef.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_pg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_phy.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_phy_reg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_reg.h \
     $(wildcard include/config/usedk.h) \
     $(wildcard include/config/no/usedk.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_phycfg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/hal_com_c2h.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_h2c.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_phycfg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/hal_com_c2h.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_h2c.h \
     $(wildcard include/config/ra/dbg/cmd.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_led.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/hal_dm.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_qos.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_pwrctrl.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_mlme.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com_led.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/hal_dm.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_qos.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_pwrctrl.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_mlme.h \
     $(wildcard include/config/dfs.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/mlme_osdep.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_io.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl_set.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl_query.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl_rtl.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/osdep_intf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/mlme_osdep.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_io.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl_set.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl_query.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ioctl_rtl.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/osdep_intf.h \
     $(wildcard include/config/r871x/test.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../os_dep/linux/rtw_proc.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../os_dep/linux/rtw_proc.h \
   include/linux/proc_fs.h \
     $(wildcard include/config/proc/devicetree.h) \
     $(wildcard include/config/proc/kcore.h) \
@@ -924,36 +924,36 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
   include/linux/sunrpc/msg_prot.h \
   include/linux/inet.h \
   include/linux/magic.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_eeprom.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sta_info.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_eeprom.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sta_info.h \
     $(wildcard include/config/atmel/rc/patch.h) \
     $(wildcard include/config/auto/ap/mode.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_event.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_mlme_ext.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ap.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_version.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_odm.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/phydm/phydm_types.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_p2p.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_mp.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_event.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_mlme_ext.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_ap.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_version.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_odm.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/phydm/phydm_types.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_p2p.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_mp.h \
     $(wildcard include/config/txt.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_br_ext.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/ip.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/if_ether.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/ethernet.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/circ_buf.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_android.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_types_sdio.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_br_ext.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/ip.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/if_ether.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/ethernet.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/circ_buf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtw_android.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/drv_types_sdio.h \
     $(wildcard include/config/platform/sprd.h) \
   include/linux/mmc/sdio_func.h \
   include/linux/mod_devicetable.h \
   include/linux/mmc/pm.h \
   include/linux/mmc/sdio_ids.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_osintf.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_ops.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_ops_linux.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_hal.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_features.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_osintf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_ops.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_ops_linux.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/sdio_hal.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_features.h \
     $(wildcard include/config/phydm/antenna/diversity.h) \
     $(wildcard include/config/s0s1/sw/antenna/diversity.h) \
     $(wildcard include/config/hl/smart/antenna/type1.h) \
@@ -981,7 +981,7 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/2g/support/antdiv.h) \
     $(wildcard include/config/5g/support/antdiv.h) \
     $(wildcard include/config/2g5g/support/antdiv.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm.h \
     $(wildcard include/config/bb/rf.h) \
     $(wildcard include/config/phy/reg/pg/value/type.h) \
     $(wildcard include/config/bb/phy/reg.h) \
@@ -1002,70 +1002,70 @@ deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modu
     $(wildcard include/config/fw/wowlan/2.h) \
     $(wildcard include/config/fw/ap/wowlan.h) \
     $(wildcard include/config/fw/bt.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_pre_define.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dig.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_edcaturbocheck.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_pathdiv.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_antdiv.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_antdect.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamicbbpowersaving.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_rainfo.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_cfotracking.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_acs.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_adaptivity.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_beamforming.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/halcomtxbf.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbfjaguar.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8192e.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8814a.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8821b.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8822b.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbfinterface.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_noisemonitor.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/halphyrf_ce.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_powertracking_ce.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_hwconfig.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_pre_define.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dig.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_edcaturbocheck.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_pathdiv.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_antdiv.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_antdect.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamicbbpowersaving.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_rainfo.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_cfotracking.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_acs.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_adaptivity.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_beamforming.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/halcomtxbf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbfjaguar.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8192e.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8814a.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8821b.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbf8822b.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/txbf/haltxbfinterface.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_noisemonitor.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/halphyrf_ce.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_powertracking_ce.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_hwconfig.h \
     $(wildcard include/config/mp.h) \
     $(wildcard include/config/tc.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_debug.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_regdefine11ac.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_regdefine11n.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_debug.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_regdefine11ac.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_regdefine11n.h \
     $(wildcard include/config/anta/11n.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_interface.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_reg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_mac.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_rf.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_bb.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_fw.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/hal8188freg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/phydm_rtl8188f.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/phydm_regconfig8188f.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_interface.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_reg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_mac.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_rf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_bb.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halhwimg8188f_fw.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/hal8188freg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/phydm_rtl8188f.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/phydm_regconfig8188f.h \
     $(wildcard include/config/h/8188f.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halphyrf_8188f.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_hal.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/rtl8188f/halphyrf_8188f.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_hal.h \
     $(wildcard include/config/check/bt/hang.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_data.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_data.h \
     $(wildcard include/config/single/img.h) \
     $(wildcard include/config/usb/rx/aggregation.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/phydm/phydm_precomp.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_sdio.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_spec.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_rf.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_dm.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_recv.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/../hal/phydm/phydm_precomp.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_sdio.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_spec.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_rf.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_dm.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_recv.h \
     $(wildcard include/config/minimal/memory/usage.h) \
     $(wildcard include/config/platform/hisilicon.h) \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_xmit.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_cmd.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_led.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/Hal8188FPwrSeq.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/HalPwrSeqCmd.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/Hal8188FPhyReg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/Hal8188FPhyCfg.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_sreset.h \
-  /home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_xmit.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_cmd.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_led.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/Hal8188FPwrSeq.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/HalPwrSeqCmd.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/Hal8188FPhyReg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/Hal8188FPhyCfg.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/rtl8188f_sreset.h \
+  /home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/include/hal_com.h \
 
-/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o: $(deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o)
+/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o: $(deps_/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o)
 
-$(deps_/home/neo/Documentos/wiscam/neo/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o):
+$(deps_/home/neo/Documentos/devs/rak_5280_arduino/sources/kernel/kernel_modules/rtl8189FS_linux_v4.3.24/hal/phydm/phydm_dynamictxpower.o):
